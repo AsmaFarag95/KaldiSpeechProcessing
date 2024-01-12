@@ -1,0 +1,420 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_module"
+		],
+		"files" : 
+		[
+			"/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/extensions/compact/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 12
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 14
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 16
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 18
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 20
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 78,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 22
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 84,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 26
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 28
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 30
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/compact/libfstcompact.16.dylib"
+			],
+			"targetId" : "fstcompact::@e8f2832a8591132163b6",
+			"targetIndex" : 200,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/compact/libfstcompact.dylib"
+			],
+			"targetId" : "fstcompact::@e8f2832a8591132163b6",
+			"targetIndex" : 200,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/fst",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/compact/libcompact8_acceptor-fst.so"
+			],
+			"targetId" : "compact8_acceptor-fst::@e8f2832a8591132163b6",
+			"targetIndex" : 85,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/fst",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/compact/libcompact8_string-fst.so"
+			],
+			"targetId" : "compact8_string-fst::@e8f2832a8591132163b6",
+			"targetIndex" : 86,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/fst",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/compact/libcompact8_unweighted-fst.so"
+			],
+			"targetId" : "compact8_unweighted-fst::@e8f2832a8591132163b6",
+			"targetIndex" : 87,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/fst",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/compact/libcompact8_unweighted_acceptor-fst.so"
+			],
+			"targetId" : "compact8_unweighted_acceptor-fst::@e8f2832a8591132163b6",
+			"targetIndex" : 88,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "lib/fst",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/compact/libcompact8_weighted_string-fst.so"
+			],
+			"targetId" : "compact8_weighted_string-fst::@e8f2832a8591132163b6",
+			"targetIndex" : 89,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "lib/fst",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/compact/libcompact16_acceptor-fst.so"
+			],
+			"targetId" : "compact16_acceptor-fst::@e8f2832a8591132163b6",
+			"targetIndex" : 75,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "lib/fst",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/compact/libcompact16_string-fst.so"
+			],
+			"targetId" : "compact16_string-fst::@e8f2832a8591132163b6",
+			"targetIndex" : 76,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "lib/fst",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/compact/libcompact16_unweighted-fst.so"
+			],
+			"targetId" : "compact16_unweighted-fst::@e8f2832a8591132163b6",
+			"targetIndex" : 77,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "lib/fst",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/compact/libcompact16_unweighted_acceptor-fst.so"
+			],
+			"targetId" : "compact16_unweighted_acceptor-fst::@e8f2832a8591132163b6",
+			"targetIndex" : 78,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "lib/fst",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/compact/libcompact16_weighted_string-fst.so"
+			],
+			"targetId" : "compact16_weighted_string-fst::@e8f2832a8591132163b6",
+			"targetIndex" : 79,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "lib/fst",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/compact/libcompact64_acceptor-fst.so"
+			],
+			"targetId" : "compact64_acceptor-fst::@e8f2832a8591132163b6",
+			"targetIndex" : 80,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "lib/fst",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/compact/libcompact64_string-fst.so"
+			],
+			"targetId" : "compact64_string-fst::@e8f2832a8591132163b6",
+			"targetIndex" : 81,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "lib/fst",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/compact/libcompact64_unweighted-fst.so"
+			],
+			"targetId" : "compact64_unweighted-fst::@e8f2832a8591132163b6",
+			"targetIndex" : 82,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "lib/fst",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/compact/libcompact64_unweighted_acceptor-fst.so"
+			],
+			"targetId" : "compact64_unweighted_acceptor-fst::@e8f2832a8591132163b6",
+			"targetIndex" : 83,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "lib/fst",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/compact/libcompact64_weighted_string-fst.so"
+			],
+			"targetId" : "compact64_weighted_string-fst::@e8f2832a8591132163b6",
+			"targetIndex" : 84,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/openfst-build/src/extensions/compact",
+		"source" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/extensions/compact"
+	}
+}

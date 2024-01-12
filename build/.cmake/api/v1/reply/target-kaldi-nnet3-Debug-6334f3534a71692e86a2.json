@@ -1,0 +1,767 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/nnet3/libkaldi-nnet3.dylib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories",
+			"include",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"src/nnet3/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/third_party/openfst.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 143,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 106,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 133,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 206,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 4
+			},
+			{
+				"file" : 2,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 13,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "HAVE_CLAPACK=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "KALDI_NO_PORTAUDIO=1"
+				},
+				{
+					"define" : "kaldi_nnet3_EXPORTS"
+				}
+			],
+			"frameworks" : 
+			[
+				{
+					"path" : "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/Accelerate.framework"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/nnet3/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/chain/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/cudamatrix/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/util/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/matrix/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/base/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/lat/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/hmm/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/tree/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/fstext/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/decoder/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/transform/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/gmm/.."
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 1,
+			"id" : "fst::@ee16932f8d07e0cdc219"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kaldi-base::@da17c8cd1000ca7e4b79"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kaldi-matrix::@6b065bd649ab8144ccb5"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kaldi-cudamatrix::@47652f6b2def4382ecac"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kaldi-util::@6bc12a100e338ba65b7b"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kaldi-tree::@9fdfae0d1fef350d8020"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kaldi-gmm::@4c028554d7bb94a95844"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kaldi-transform::@7e2612d609737b4b9f3b"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kaldi-fstext::@65251d3619c47acc31ab"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kaldi-hmm::@086178c3ed9e97abaaa5"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kaldi-decoder::@3123da6fb464b0da5d27"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kaldi-lat::@435cef781b9d28745ff1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kaldi-chain::@d12f94c655d22c991963"
+		}
+	],
+	"id" : "kaldi-nnet3::@98ab3b0ed93b7de43547",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/chain -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/cudamatrix -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/decoder -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/lat -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/fstext -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/hmm -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/transform -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/gmm -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/tree -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/util -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/matrix -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/base -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-build/src/lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../chain/libkaldi-chain.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../cudamatrix/libkaldi-cudamatrix.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../decoder/libkaldi-decoder.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../lat/libkaldi-lat.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../fstext/libkaldi-fstext.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../hmm/libkaldi-hmm.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../transform/libkaldi-transform.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../gmm/libkaldi-gmm.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../tree/libkaldi-tree.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../util/libkaldi-util.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../matrix/libkaldi-matrix.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../base/libkaldi-base.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lcblas",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-llapack",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "../../_deps/openfst-build/src/lib/libfst.16.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "kaldi-nnet3",
+	"nameOnDisk" : "libkaldi-nnet3.dylib",
+	"paths" : 
+	{
+		"build" : "src/nnet3",
+		"source" : "src/nnet3"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/am-nnet-simple.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/attention.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/convolution.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/decodable-batch-looped.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/decodable-online-looped.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/decodable-simple-looped.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/discriminative-supervision.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/discriminative-training.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/natural-gradient-online.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-am-decodable-simple.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-analyze.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-attention-component.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-batch-compute.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-chain-diagnostics.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-chain-diagnostics2.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-chain-example.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-chain-training.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-chain-training2.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-combined-component.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-common.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-compile-looped.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-compile-utils.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-compile.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-component-itf.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-computation-graph.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-computation.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-compute.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-convolutional-component.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-descriptor.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-diagnostics.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-discriminative-diagnostics.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-discriminative-example.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-discriminative-training.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-example-utils.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-example.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-general-component.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-graph.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-nnet.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-normalize-component.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-optimize-utils.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-optimize.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-parse.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-simple-component.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-tdnn-component.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-test-utils.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-training.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet3/nnet-utils.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

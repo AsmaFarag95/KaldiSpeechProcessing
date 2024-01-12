@@ -1,0 +1,516 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_kaldi_test_executable"
+		],
+		"files" : 
+		[
+			"cmake/Utils.cmake",
+			"src/nnet3/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 124,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 125,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 126,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 127,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 128,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 129,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 130,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 131,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 132,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 133,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 134,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 135,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 23
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 136,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 137,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 138,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 29
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 139,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 31
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 140,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 143,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 149,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet3/attention-test"
+			],
+			"targetId" : "attention-test::@98ab3b0ed93b7de43547",
+			"targetIndex" : 61,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet3/convolution-test"
+			],
+			"targetId" : "convolution-test::@98ab3b0ed93b7de43547",
+			"targetIndex" : 122,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet3/natural-gradient-online-test"
+			],
+			"targetId" : "natural-gradient-online-test::@98ab3b0ed93b7de43547",
+			"targetIndex" : 494,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet3/nnet3-analyze-test"
+			],
+			"targetId" : "nnet3-analyze-test::@98ab3b0ed93b7de43547",
+			"targetIndex" : 573,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet3/nnet3-common-test"
+			],
+			"targetId" : "nnet3-common-test::@98ab3b0ed93b7de43547",
+			"targetIndex" : 591,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet3/nnet3-compile-test"
+			],
+			"targetId" : "nnet3-compile-test::@98ab3b0ed93b7de43547",
+			"targetIndex" : 592,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet3/nnet3-compile-utils-test"
+			],
+			"targetId" : "nnet3-compile-utils-test::@98ab3b0ed93b7de43547",
+			"targetIndex" : 593,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet3/nnet3-component-test"
+			],
+			"targetId" : "nnet3-component-test::@98ab3b0ed93b7de43547",
+			"targetIndex" : 594,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet3/nnet3-compute-test"
+			],
+			"targetId" : "nnet3-compute-test::@98ab3b0ed93b7de43547",
+			"targetIndex" : 599,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet3/nnet3-derivative-test"
+			],
+			"targetId" : "nnet3-derivative-test::@98ab3b0ed93b7de43547",
+			"targetIndex" : 602,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet3/nnet3-descriptor-test"
+			],
+			"targetId" : "nnet3-descriptor-test::@98ab3b0ed93b7de43547",
+			"targetIndex" : 603,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet3/nnet3-example-test"
+			],
+			"targetId" : "nnet3-example-test::@98ab3b0ed93b7de43547",
+			"targetIndex" : 613,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet3/nnet3-graph-test"
+			],
+			"targetId" : "nnet3-graph-test::@98ab3b0ed93b7de43547",
+			"targetIndex" : 617,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet3/nnet3-nnet-test"
+			],
+			"targetId" : "nnet3-nnet-test::@98ab3b0ed93b7de43547",
+			"targetIndex" : 628,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet3/nnet3-optimize-test"
+			],
+			"targetId" : "nnet3-optimize-test::@98ab3b0ed93b7de43547",
+			"targetIndex" : 629,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet3/nnet3-parse-test"
+			],
+			"targetId" : "nnet3-parse-test::@98ab3b0ed93b7de43547",
+			"targetIndex" : 630,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet3/nnet3-utils-test"
+			],
+			"targetId" : "nnet3-utils-test::@98ab3b0ed93b7de43547",
+			"targetIndex" : 635,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "kaldi",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/nnet3/libkaldi-nnet3.dylib"
+			],
+			"targetId" : "kaldi-nnet3::@98ab3b0ed93b7de43547",
+			"targetIndex" : 392,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "kaldi",
+			"destination" : "include/kaldi/nnet3",
+			"paths" : 
+			[
+				"src/nnet3/am-nnet-simple.h",
+				"src/nnet3/attention.h",
+				"src/nnet3/convolution.h",
+				"src/nnet3/decodable-batch-looped.h",
+				"src/nnet3/decodable-online-looped.h",
+				"src/nnet3/decodable-simple-looped.h",
+				"src/nnet3/discriminative-supervision.h",
+				"src/nnet3/discriminative-training.h",
+				"src/nnet3/natural-gradient-online.h",
+				"src/nnet3/nnet-am-decodable-simple.h",
+				"src/nnet3/nnet-analyze.h",
+				"src/nnet3/nnet-attention-component.h",
+				"src/nnet3/nnet-batch-compute.h",
+				"src/nnet3/nnet-chain-diagnostics.h",
+				"src/nnet3/nnet-chain-diagnostics2.h",
+				"src/nnet3/nnet-chain-example.h",
+				"src/nnet3/nnet-chain-training.h",
+				"src/nnet3/nnet-chain-training2.h",
+				"src/nnet3/nnet-combined-component.h",
+				"src/nnet3/nnet-common.h",
+				"src/nnet3/nnet-compile-looped.h",
+				"src/nnet3/nnet-compile-utils.h",
+				"src/nnet3/nnet-compile.h",
+				"src/nnet3/nnet-component-itf.h",
+				"src/nnet3/nnet-computation-graph.h",
+				"src/nnet3/nnet-computation.h",
+				"src/nnet3/nnet-compute.h",
+				"src/nnet3/nnet-convolutional-component.h",
+				"src/nnet3/nnet-descriptor.h",
+				"src/nnet3/nnet-diagnostics.h",
+				"src/nnet3/nnet-discriminative-diagnostics.h",
+				"src/nnet3/nnet-discriminative-example.h",
+				"src/nnet3/nnet-discriminative-training.h",
+				"src/nnet3/nnet-example-utils.h",
+				"src/nnet3/nnet-example.h",
+				"src/nnet3/nnet-general-component.h",
+				"src/nnet3/nnet-graph.h",
+				"src/nnet3/nnet-nnet.h",
+				"src/nnet3/nnet-normalize-component.h",
+				"src/nnet3/nnet-optimize-utils.h",
+				"src/nnet3/nnet-optimize.h",
+				"src/nnet3/nnet-parse.h",
+				"src/nnet3/nnet-simple-component.h",
+				"src/nnet3/nnet-test-utils.h",
+				"src/nnet3/nnet-training.h",
+				"src/nnet3/nnet-utils.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/nnet3",
+		"source" : "src/nnet3"
+	}
+}

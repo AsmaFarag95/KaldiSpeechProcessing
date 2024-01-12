@@ -1,0 +1,75 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/decoder/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "kaldi",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/decoder/libkaldi-decoder.dylib"
+			],
+			"targetId" : "kaldi-decoder::@3123da6fb464b0da5d27",
+			"targetIndex" : 376,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "kaldi",
+			"destination" : "include/kaldi/decoder",
+			"paths" : 
+			[
+				"src/decoder/biglm-faster-decoder.h",
+				"src/decoder/decodable-mapped.h",
+				"src/decoder/decodable-matrix.h",
+				"src/decoder/decodable-sum.h",
+				"src/decoder/decoder-wrappers.h",
+				"src/decoder/faster-decoder.h",
+				"src/decoder/grammar-fst.h",
+				"src/decoder/lattice-biglm-faster-decoder.h",
+				"src/decoder/lattice-faster-decoder.h",
+				"src/decoder/lattice-faster-online-decoder.h",
+				"src/decoder/lattice-incremental-decoder.h",
+				"src/decoder/lattice-incremental-online-decoder.h",
+				"src/decoder/lattice-simple-decoder.h",
+				"src/decoder/simple-decoder.h",
+				"src/decoder/training-graph-compiler.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/decoder",
+		"source" : "src/decoder"
+	}
+}

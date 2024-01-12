@@ -1,0 +1,677 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_kaldi_executable"
+		],
+		"files" : 
+		[
+			"cmake/Utils.cmake",
+			"src/ivectorbin/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 23
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 29
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 31
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 33
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 37
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 39
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 41
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 43
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 45
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 47
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 49
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 51
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 53
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/ivector-plda-scoring-dense"
+			],
+			"targetId" : "ivector-plda-scoring-dense::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 369,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/ivector-compute-plda"
+			],
+			"targetId" : "ivector-compute-plda::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 355,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/ivector-extractor-copy"
+			],
+			"targetId" : "ivector-extractor-copy::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 361,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/ivector-extract"
+			],
+			"targetId" : "ivector-extract::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 357,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/compute-vad-from-frame-likes"
+			],
+			"targetId" : "compute-vad-from-frame-likes::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 111,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/ivector-compute-dot-products"
+			],
+			"targetId" : "ivector-compute-dot-products::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 353,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/logistic-regression-copy"
+			],
+			"targetId" : "logistic-regression-copy::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 468,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/ivector-extract-online"
+			],
+			"targetId" : "ivector-extract-online::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 358,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/ivector-extractor-acc-stats"
+			],
+			"targetId" : "ivector-extractor-acc-stats::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 360,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/ivector-subtract-global-mean"
+			],
+			"targetId" : "ivector-subtract-global-mean::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 371,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/ivector-mean"
+			],
+			"targetId" : "ivector-mean::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 366,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/ivector-transform"
+			],
+			"targetId" : "ivector-transform::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 372,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/ivector-extractor-init"
+			],
+			"targetId" : "ivector-extractor-init::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 363,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/compute-eer"
+			],
+			"targetId" : "compute-eer::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 103,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/ivector-extractor-sum-accs"
+			],
+			"targetId" : "ivector-extractor-sum-accs::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 364,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/compute-vad"
+			],
+			"targetId" : "compute-vad::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 110,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/ivector-copy-plda"
+			],
+			"targetId" : "ivector-copy-plda::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 356,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/agglomerative-cluster"
+			],
+			"targetId" : "agglomerative-cluster::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 33,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/logistic-regression-train"
+			],
+			"targetId" : "logistic-regression-train::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 471,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/select-voiced-frames"
+			],
+			"targetId" : "select-voiced-frames::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 713,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/ivector-plda-scoring"
+			],
+			"targetId" : "ivector-plda-scoring::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 368,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/ivector-normalize-length"
+			],
+			"targetId" : "ivector-normalize-length::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 367,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/merge-vads"
+			],
+			"targetId" : "merge-vads::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 483,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/ivector-extractor-est"
+			],
+			"targetId" : "ivector-extractor-est::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 362,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 50,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/logistic-regression-eval"
+			],
+			"targetId" : "logistic-regression-eval::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 469,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 52,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/ivector-compute-lda"
+			],
+			"targetId" : "ivector-compute-lda::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 354,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 54,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/ivectorbin/ivector-adapt-plda"
+			],
+			"targetId" : "ivector-adapt-plda::@3f3797f8de1b9a7bdc7b",
+			"targetIndex" : 352,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/ivectorbin",
+		"source" : "src/ivectorbin"
+	}
+}

@@ -1,0 +1,135 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_kaldi_test_executable"
+		],
+		"files" : 
+		[
+			"cmake/Utils.cmake",
+			"src/nnet/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 65,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet/nnet-component-test"
+			],
+			"targetId" : "nnet-component-test::@e86b9d98b968997431cf",
+			"targetIndex" : 516,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet/nnet-randomizer-test"
+			],
+			"targetId" : "nnet-randomizer-test::@e86b9d98b968997431cf",
+			"targetIndex" : 538,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "kaldi",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/nnet/libkaldi-nnet.dylib"
+			],
+			"targetId" : "kaldi-nnet::@e86b9d98b968997431cf",
+			"targetIndex" : 390,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "kaldi",
+			"destination" : "include/kaldi/nnet",
+			"paths" : 
+			[
+				"src/nnet/nnet-activation.h",
+				"src/nnet/nnet-affine-transform.h",
+				"src/nnet/nnet-average-pooling-component.h",
+				"src/nnet/nnet-blstm-projected.h",
+				"src/nnet/nnet-component.h",
+				"src/nnet/nnet-convolutional-component.h",
+				"src/nnet/nnet-frame-pooling-component.h",
+				"src/nnet/nnet-kl-hmm.h",
+				"src/nnet/nnet-linear-transform.h",
+				"src/nnet/nnet-loss.h",
+				"src/nnet/nnet-lstm-projected.h",
+				"src/nnet/nnet-matrix-buffer.h",
+				"src/nnet/nnet-max-pooling-component.h",
+				"src/nnet/nnet-multibasis-component.h",
+				"src/nnet/nnet-nnet.h",
+				"src/nnet/nnet-parallel-component.h",
+				"src/nnet/nnet-parametric-relu.h",
+				"src/nnet/nnet-pdf-prior.h",
+				"src/nnet/nnet-randomizer.h",
+				"src/nnet/nnet-rbm.h",
+				"src/nnet/nnet-recurrent.h",
+				"src/nnet/nnet-sentence-averaging-component.h",
+				"src/nnet/nnet-trnopts.h",
+				"src/nnet/nnet-utils.h",
+				"src/nnet/nnet-various.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/nnet",
+		"source" : "src/nnet"
+	}
+}

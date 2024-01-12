@@ -1,0 +1,642 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/CMakeFiles/3.27.7/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Platform/Darwin-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/CMakeFiles/3.27.7/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Platform/Darwin.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Compiler/AppleClang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Platform/Apple-Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Platform/Apple-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Compiler/AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Platform/Apple-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "cmake/Utils.cmake"
+		},
+		{
+			"path" : "cmake/third_party/get_third_party.cmake"
+		},
+		{
+			"path" : "cmake/third_party/openfst.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FetchContent.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/ExternalProject/shared_internal_commands.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindPythonInterp.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CTestUseLaunchers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CTestTargets.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/DartConfiguration.tcl.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindBLAS.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindLAPACK.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindBLAS.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindCUDAToolkit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindCUDA.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindCUDA/select_compute_arch.cmake"
+		},
+		{
+			"path" : "cmake/VersionHelper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"path" : "cmake/kaldi-config.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CTestUseLaunchers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CTestTargets.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/DartConfiguration.tcl.in"
+		},
+		{
+			"path" : "cmake/FindICU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/lib/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/script/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/bin/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/extensions/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/extensions/compact/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/extensions/const/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/extensions/far/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/extensions/linear/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/extensions/lookahead/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/extensions/mpdt/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/extensions/ngram/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/extensions/pdt/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/extensions/special/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/test/CMakeLists.txt"
+		},
+		{
+			"path" : "src/base/CMakeLists.txt"
+		},
+		{
+			"path" : "src/matrix/CMakeLists.txt"
+		},
+		{
+			"path" : "src/cudamatrix/CMakeLists.txt"
+		},
+		{
+			"path" : "src/util/CMakeLists.txt"
+		},
+		{
+			"path" : "src/feat/CMakeLists.txt"
+		},
+		{
+			"path" : "src/tree/CMakeLists.txt"
+		},
+		{
+			"path" : "src/gmm/CMakeLists.txt"
+		},
+		{
+			"path" : "src/transform/CMakeLists.txt"
+		},
+		{
+			"path" : "src/fstext/CMakeLists.txt"
+		},
+		{
+			"path" : "src/hmm/CMakeLists.txt"
+		},
+		{
+			"path" : "src/lm/CMakeLists.txt"
+		},
+		{
+			"path" : "src/decoder/CMakeLists.txt"
+		},
+		{
+			"path" : "src/lat/CMakeLists.txt"
+		},
+		{
+			"path" : "src/nnet/CMakeLists.txt"
+		},
+		{
+			"path" : "src/nnet2/CMakeLists.txt"
+		},
+		{
+			"path" : "src/nnet3/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rnnlm/CMakeLists.txt"
+		},
+		{
+			"path" : "src/chain/CMakeLists.txt"
+		},
+		{
+			"path" : "src/ivector/CMakeLists.txt"
+		},
+		{
+			"path" : "src/online/CMakeLists.txt"
+		},
+		{
+			"path" : "src/online2/CMakeLists.txt"
+		},
+		{
+			"path" : "src/kws/CMakeLists.txt"
+		},
+		{
+			"path" : "src/itf/CMakeLists.txt"
+		},
+		{
+			"path" : "src/bin/CMakeLists.txt"
+		},
+		{
+			"path" : "src/gmmbin/CMakeLists.txt"
+		},
+		{
+			"path" : "src/featbin/CMakeLists.txt"
+		},
+		{
+			"path" : "src/fstbin/CMakeLists.txt"
+		},
+		{
+			"path" : "src/lmbin/CMakeLists.txt"
+		},
+		{
+			"path" : "src/latbin/CMakeLists.txt"
+		},
+		{
+			"path" : "src/nnetbin/CMakeLists.txt"
+		},
+		{
+			"path" : "src/nnet2bin/CMakeLists.txt"
+		},
+		{
+			"path" : "src/nnet3bin/CMakeLists.txt"
+		},
+		{
+			"path" : "src/rnnlmbin/CMakeLists.txt"
+		},
+		{
+			"path" : "src/chainbin/CMakeLists.txt"
+		},
+		{
+			"path" : "src/ivectorbin/CMakeLists.txt"
+		},
+		{
+			"path" : "src/onlinebin/CMakeLists.txt"
+		},
+		{
+			"path" : "src/online2bin/CMakeLists.txt"
+		},
+		{
+			"path" : "src/kwsbin/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build",
+		"source" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

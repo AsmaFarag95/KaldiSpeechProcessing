@@ -1,0 +1,92 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_kaldi_test_executable"
+		],
+		"files" : 
+		[
+			"cmake/Utils.cmake",
+			"src/online/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/online/online-feat-test"
+			],
+			"targetId" : "online-feat-test::@59f0d10d4b600193a28f",
+			"targetIndex" : 643,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "kaldi",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/online/libkaldi-online.dylib"
+			],
+			"targetId" : "kaldi-online::@59f0d10d4b600193a28f",
+			"targetIndex" : 393,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "kaldi",
+			"destination" : "include/kaldi/online",
+			"paths" : 
+			[
+				"src/online/online-audio-source.h",
+				"src/online/online-decodable.h",
+				"src/online/online-faster-decoder.h",
+				"src/online/online-feat-input.h",
+				"src/online/online-tcp-source.h",
+				"src/online/onlinebin-util.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/online",
+		"source" : "src/online"
+	}
+}

@@ -1,0 +1,485 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_kaldi_executable"
+		],
+		"files" : 
+		[
+			"cmake/Utils.cmake",
+			"src/nnetbin/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 23
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 29
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 31
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 33
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 37
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/nnetbin/feat-to-post"
+			],
+			"targetId" : "feat-to-post::@b5b4b9e24f6e3d5da9d1",
+			"targetIndex" : 180,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/nnetbin/cmvn-to-nnet"
+			],
+			"targetId" : "cmvn-to-nnet::@b5b4b9e24f6e3d5da9d1",
+			"targetIndex" : 74,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/nnetbin/rbm-convert-to-nnet"
+			],
+			"targetId" : "rbm-convert-to-nnet::@b5b4b9e24f6e3d5da9d1",
+			"targetIndex" : 694,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/nnetbin/nnet-train-frmshuff"
+			],
+			"targetId" : "nnet-train-frmshuff::@b5b4b9e24f6e3d5da9d1",
+			"targetIndex" : 550,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/nnetbin/nnet-concat"
+			],
+			"targetId" : "nnet-concat::@b5b4b9e24f6e3d5da9d1",
+			"targetIndex" : 520,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/nnetbin/nnet-set-learnrate"
+			],
+			"targetId" : "nnet-set-learnrate::@b5b4b9e24f6e3d5da9d1",
+			"targetIndex" : 541,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/nnetbin/nnet-info"
+			],
+			"targetId" : "nnet-info::@b5b4b9e24f6e3d5da9d1",
+			"targetIndex" : 530,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/nnetbin/nnet-initialize"
+			],
+			"targetId" : "nnet-initialize::@b5b4b9e24f6e3d5da9d1",
+			"targetIndex" : 532,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/nnetbin/nnet-forward"
+			],
+			"targetId" : "nnet-forward::@b5b4b9e24f6e3d5da9d1",
+			"targetIndex" : 524,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/nnetbin/nnet-train-perutt"
+			],
+			"targetId" : "nnet-train-perutt::@b5b4b9e24f6e3d5da9d1",
+			"targetIndex" : 556,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/nnetbin/paste-post"
+			],
+			"targetId" : "paste-post::@b5b4b9e24f6e3d5da9d1",
+			"targetIndex" : 663,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/nnetbin/rbm-train-cd1-frmshuff"
+			],
+			"targetId" : "rbm-train-cd1-frmshuff::@b5b4b9e24f6e3d5da9d1",
+			"targetIndex" : 695,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/nnetbin/nnet-train-multistream"
+			],
+			"targetId" : "nnet-train-multistream::@b5b4b9e24f6e3d5da9d1",
+			"targetIndex" : 553,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/nnetbin/transf-to-nnet"
+			],
+			"targetId" : "transf-to-nnet::@b5b4b9e24f6e3d5da9d1",
+			"targetIndex" : 735,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/nnetbin/train-transitions"
+			],
+			"targetId" : "train-transitions::@b5b4b9e24f6e3d5da9d1",
+			"targetIndex" : 733,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/nnetbin/nnet-train-mmi-sequential"
+			],
+			"targetId" : "nnet-train-mmi-sequential::@b5b4b9e24f6e3d5da9d1",
+			"targetIndex" : 551,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/nnetbin/nnet-copy"
+			],
+			"targetId" : "nnet-copy::@b5b4b9e24f6e3d5da9d1",
+			"targetIndex" : 521,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/nnetbin/nnet-train-multistream-perutt"
+			],
+			"targetId" : "nnet-train-multistream-perutt::@b5b4b9e24f6e3d5da9d1",
+			"targetIndex" : 554,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/nnetbin/nnet-train-mpe-sequential"
+			],
+			"targetId" : "nnet-train-mpe-sequential::@b5b4b9e24f6e3d5da9d1",
+			"targetIndex" : 552,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/nnetbin",
+		"source" : "src/nnetbin"
+	}
+}

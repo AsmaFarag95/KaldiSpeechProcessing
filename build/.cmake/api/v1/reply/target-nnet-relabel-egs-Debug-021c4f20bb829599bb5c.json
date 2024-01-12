@@ -1,0 +1,377 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/nnet2bin/nnet-relabel-egs"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_kaldi_executable",
+			"install",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories",
+			"include"
+		],
+		"files" : 
+		[
+			"cmake/Utils.cmake",
+			"src/nnet2bin/CMakeLists.txt",
+			"src/nnet2/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/third_party/openfst.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 1
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 70,
+				"parent" : 5
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 133,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 206,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 25,
+				"parent" : 7
+			},
+			{
+				"file" : 4,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 13,
+				"parent" : 11
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -fPIE"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 8,
+					"define" : "HAVE_CLAPACK=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "KALDI_NO_PORTAUDIO=1"
+				}
+			],
+			"frameworks" : 
+			[
+				{
+					"path" : "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/Accelerate.framework"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 12,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/nnet2/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/cudamatrix/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/util/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/matrix/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/base/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/lat/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/hmm/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/tree/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/transform/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/gmm/.."
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "fst::@ee16932f8d07e0cdc219"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kaldi-base::@da17c8cd1000ca7e4b79"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kaldi-matrix::@6b065bd649ab8144ccb5"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kaldi-cudamatrix::@47652f6b2def4382ecac"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kaldi-util::@6bc12a100e338ba65b7b"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kaldi-tree::@9fdfae0d1fef350d8020"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kaldi-gmm::@4c028554d7bb94a95844"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kaldi-transform::@7e2612d609737b4b9f3b"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kaldi-hmm::@086178c3ed9e97abaaa5"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kaldi-lat::@435cef781b9d28745ff1"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kaldi-nnet2::@a87f42533a5e7131ca03"
+		}
+	],
+	"id" : "nnet-relabel-egs::@7b1cb2a437564e1cf24f",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/nnet2 -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/cudamatrix -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/lat -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/hmm -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/transform -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/gmm -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/tree -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/util -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/matrix -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/base -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-build/src/lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "../nnet2/libkaldi-nnet2.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../cudamatrix/libkaldi-cudamatrix.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../lat/libkaldi-lat.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../hmm/libkaldi-hmm.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../transform/libkaldi-transform.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../gmm/libkaldi-gmm.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../tree/libkaldi-tree.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../util/libkaldi-util.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../matrix/libkaldi-matrix.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../base/libkaldi-base.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../_deps/openfst-build/src/lib/libfst.16.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lcblas",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-llapack",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "nnet-relabel-egs",
+	"nameOnDisk" : "nnet-relabel-egs",
+	"paths" : 
+	{
+		"build" : "src/nnet2bin",
+		"source" : "src/nnet2bin"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/nnet2bin/nnet-relabel-egs.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,147 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_kaldi_test_executable"
+		],
+		"files" : 
+		[
+			"cmake/Utils.cmake",
+			"src/rnnlm/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 63,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/rnnlm/rnnlm-example-test"
+			],
+			"targetId" : "rnnlm-example-test::@e9180debe1e24eee548c",
+			"targetIndex" : 703,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/rnnlm/sampler-test"
+			],
+			"targetId" : "sampler-test::@e9180debe1e24eee548c",
+			"targetIndex" : 709,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/rnnlm/sampling-lm-test"
+			],
+			"targetId" : "sampling-lm-test::@e9180debe1e24eee548c",
+			"targetIndex" : 710,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "kaldi",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/rnnlm/libkaldi-rnnlm.dylib"
+			],
+			"targetId" : "kaldi-rnnlm::@e9180debe1e24eee548c",
+			"targetIndex" : 395,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "kaldi",
+			"destination" : "include/kaldi/rnnlm",
+			"paths" : 
+			[
+				"src/rnnlm/rnnlm-compute-state.h",
+				"src/rnnlm/rnnlm-core-compute.h",
+				"src/rnnlm/rnnlm-core-training.h",
+				"src/rnnlm/rnnlm-embedding-training.h",
+				"src/rnnlm/rnnlm-example-utils.h",
+				"src/rnnlm/rnnlm-example.h",
+				"src/rnnlm/rnnlm-lattice-rescoring.h",
+				"src/rnnlm/rnnlm-test-utils.h",
+				"src/rnnlm/rnnlm-training.h",
+				"src/rnnlm/rnnlm-utils.h",
+				"src/rnnlm/sampler.h",
+				"src/rnnlm/sampling-lm-estimate.h",
+				"src/rnnlm/sampling-lm.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/rnnlm",
+		"source" : "src/rnnlm"
+	}
+}

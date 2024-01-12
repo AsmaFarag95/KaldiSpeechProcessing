@@ -1,0 +1,49 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/itf/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "kaldi",
+			"destination" : "include/kaldi/itf",
+			"paths" : 
+			[
+				"src/itf/clusterable-itf.h",
+				"src/itf/context-dep-itf.h",
+				"src/itf/decodable-itf.h",
+				"src/itf/online-feature-itf.h",
+				"src/itf/optimizable-itf.h",
+				"src/itf/options-itf.h",
+				"src/itf/transition-information.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/itf",
+		"source" : "src/itf"
+	}
+}

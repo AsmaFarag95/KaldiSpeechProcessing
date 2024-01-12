@@ -1,0 +1,77 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/extensions/ngram/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/ngram/libfstngram.16.dylib"
+			],
+			"targetId" : "fstngram::@a554cda3574ba469c687",
+			"targetIndex" : 237,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/ngram/libfstngram.dylib"
+			],
+			"targetId" : "fstngram::@a554cda3574ba469c687",
+			"targetIndex" : 237,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/fst",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/ngram/libngram_fst.so"
+			],
+			"targetId" : "ngram_fst::@a554cda3574ba469c687",
+			"targetIndex" : 499,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/openfst-build/src/extensions/ngram",
+		"source" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/extensions/ngram"
+	}
+}

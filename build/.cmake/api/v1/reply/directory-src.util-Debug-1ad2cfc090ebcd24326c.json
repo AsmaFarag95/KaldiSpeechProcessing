@@ -1,0 +1,326 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_kaldi_test_executable"
+		],
+		"files" : 
+		[
+			"cmake/Utils.cmake",
+			"src/util/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 72,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/util/const-integer-set-test"
+			],
+			"targetId" : "const-integer-set-test::@6bc12a100e338ba65b7b",
+			"targetIndex" : 115,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/util/edit-distance-test"
+			],
+			"targetId" : "edit-distance-test::@6bc12a100e338ba65b7b",
+			"targetIndex" : 160,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/util/hash-list-test"
+			],
+			"targetId" : "hash-list-test::@6bc12a100e338ba65b7b",
+			"targetIndex" : 345,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/util/kaldi-io-test"
+			],
+			"targetId" : "kaldi-io-test::@6bc12a100e338ba65b7b",
+			"targetIndex" : 382,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/util/kaldi-table-test"
+			],
+			"targetId" : "kaldi-table-test::@6bc12a100e338ba65b7b",
+			"targetIndex" : 396,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/util/kaldi-thread-test"
+			],
+			"targetId" : "kaldi-thread-test::@6bc12a100e338ba65b7b",
+			"targetIndex" : 397,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/util/parse-options-test"
+			],
+			"targetId" : "parse-options-test::@6bc12a100e338ba65b7b",
+			"targetIndex" : 661,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/util/simple-options-test"
+			],
+			"targetId" : "simple-options-test::@6bc12a100e338ba65b7b",
+			"targetIndex" : 719,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/util/stl-utils-test"
+			],
+			"targetId" : "stl-utils-test::@6bc12a100e338ba65b7b",
+			"targetIndex" : 722,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/util/text-utils-test"
+			],
+			"targetId" : "text-utils-test::@6bc12a100e338ba65b7b",
+			"targetIndex" : 731,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "kaldi",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/util/libkaldi-util.dylib"
+			],
+			"targetId" : "kaldi-util::@6bc12a100e338ba65b7b",
+			"targetIndex" : 400,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "kaldi",
+			"destination" : "include/kaldi/util",
+			"paths" : 
+			[
+				"src/util/basic-filebuf.h",
+				"src/util/common-utils.h",
+				"src/util/const-integer-set-inl.h",
+				"src/util/const-integer-set.h",
+				"src/util/edit-distance-inl.h",
+				"src/util/edit-distance.h",
+				"src/util/hash-list-inl.h",
+				"src/util/hash-list.h",
+				"src/util/kaldi-cygwin-io-inl.h",
+				"src/util/kaldi-holder-inl.h",
+				"src/util/kaldi-holder.h",
+				"src/util/kaldi-io-inl.h",
+				"src/util/kaldi-io.h",
+				"src/util/kaldi-pipebuf.h",
+				"src/util/kaldi-semaphore.h",
+				"src/util/kaldi-table-inl.h",
+				"src/util/kaldi-table.h",
+				"src/util/kaldi-thread.h",
+				"src/util/parse-options.h",
+				"src/util/simple-io-funcs.h",
+				"src/util/simple-options.h",
+				"src/util/stl-utils.h",
+				"src/util/table-types.h",
+				"src/util/text-utils.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/util",
+		"source" : "src/util"
+	}
+}

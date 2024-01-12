@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/CMakeFiles/openfst-populate"
+		},
+		{
+			"file" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/CMakeFiles/openfst-populate.rule"
+		},
+		{
+			"file" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/CMakeFiles/openfst-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/openfst-populate-prefix/src/openfst-populate-stamp/openfst-populate-build.rule"
+		},
+		{
+			"file" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/openfst-populate-prefix/src/openfst-populate-stamp/openfst-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/openfst-populate-prefix/src/openfst-populate-stamp/openfst-populate-download.rule"
+		},
+		{
+			"file" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/openfst-populate-prefix/src/openfst-populate-stamp/openfst-populate-install.rule"
+		},
+		{
+			"file" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/openfst-populate-prefix/src/openfst-populate-stamp/openfst-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/openfst-populate-prefix/src/openfst-populate-stamp/openfst-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/openfst-populate-prefix/src/openfst-populate-stamp/openfst-populate-test.rule"
+		},
+		{
+			"file" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/openfst-populate-prefix/src/openfst-populate-stamp/openfst-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"openfst-populate"
+		],
+		"name" : "openfst-populate"
+	}
+}

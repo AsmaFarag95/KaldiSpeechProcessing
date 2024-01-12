@@ -1,0 +1,916 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_executable2"
+		],
+		"files" : 
+		[
+			"/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/bin/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 23
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 29
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 31
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 33
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 37
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 39
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 41
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 43
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 45
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 47
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 49
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 51
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 53
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 55
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 57
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 59
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 61
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 63
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 77,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 65
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 67
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 69
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 71
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 73
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstarcsort"
+			],
+			"targetId" : "fstarcsort::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 198,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstclosure"
+			],
+			"targetId" : "fstclosure::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 199,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstcompile"
+			],
+			"targetId" : "fstcompile::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 201,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstcompose"
+			],
+			"targetId" : "fstcompose::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 202,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstconcat"
+			],
+			"targetId" : "fstconcat::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 204,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstconnect"
+			],
+			"targetId" : "fstconnect::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 205,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstconvert"
+			],
+			"targetId" : "fstconvert::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 207,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstdeterminize"
+			],
+			"targetId" : "fstdeterminize::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 209,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstdifference"
+			],
+			"targetId" : "fstdifference::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 212,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstdisambiguate"
+			],
+			"targetId" : "fstdisambiguate::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 213,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstdraw"
+			],
+			"targetId" : "fstdraw::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 214,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstencode"
+			],
+			"targetId" : "fstencode::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 215,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstepsnormalize"
+			],
+			"targetId" : "fstepsnormalize::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 216,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstequal"
+			],
+			"targetId" : "fstequal::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 217,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstequivalent"
+			],
+			"targetId" : "fstequivalent::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 218,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstinfo"
+			],
+			"targetId" : "fstinfo::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 222,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstintersect"
+			],
+			"targetId" : "fstintersect::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 223,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstinvert"
+			],
+			"targetId" : "fstinvert::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 224,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstisomorphic"
+			],
+			"targetId" : "fstisomorphic::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 225,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstmap"
+			],
+			"targetId" : "fstmap::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 233,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstminimize"
+			],
+			"targetId" : "fstminimize::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 234,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstprint"
+			],
+			"targetId" : "fstprint::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 240,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstproject"
+			],
+			"targetId" : "fstproject::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 241,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstprune"
+			],
+			"targetId" : "fstprune::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 242,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 50,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstpush"
+			],
+			"targetId" : "fstpush::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 243,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 52,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstrandgen"
+			],
+			"targetId" : "fstrandgen::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 246,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 54,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstrelabel"
+			],
+			"targetId" : "fstrelabel::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 247,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 56,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstreplace"
+			],
+			"targetId" : "fstreplace::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 248,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 58,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstreverse"
+			],
+			"targetId" : "fstreverse::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 249,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 60,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstreweight"
+			],
+			"targetId" : "fstreweight::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 250,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 62,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstrmepsilon"
+			],
+			"targetId" : "fstrmepsilon::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 251,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 64,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstshortestdistance"
+			],
+			"targetId" : "fstshortestdistance::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 259,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 66,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstshortestpath"
+			],
+			"targetId" : "fstshortestpath::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 260,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 68,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstsymbols"
+			],
+			"targetId" : "fstsymbols::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 263,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 70,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstsynchronize"
+			],
+			"targetId" : "fstsynchronize::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 264,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 72,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fsttopsort"
+			],
+			"targetId" : "fsttopsort::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 266,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 74,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/bin/fstunion"
+			],
+			"targetId" : "fstunion::@bd52a87cc3b527f08fe6",
+			"targetIndex" : 267,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/openfst-build/src/bin",
+		"source" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/bin"
+	}
+}

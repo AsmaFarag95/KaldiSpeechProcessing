@@ -1,0 +1,14 @@
+# Target labels
+ openfst-populate
+# Source files and their labels
+/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/CMakeFiles/openfst-populate
+/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/CMakeFiles/openfst-populate.rule
+/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/CMakeFiles/openfst-populate-complete.rule
+/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/openfst-populate-prefix/src/openfst-populate-stamp/openfst-populate-build.rule
+/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/openfst-populate-prefix/src/openfst-populate-stamp/openfst-populate-configure.rule
+/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/openfst-populate-prefix/src/openfst-populate-stamp/openfst-populate-download.rule
+/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/openfst-populate-prefix/src/openfst-populate-stamp/openfst-populate-install.rule
+/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/openfst-populate-prefix/src/openfst-populate-stamp/openfst-populate-mkdir.rule
+/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/openfst-populate-prefix/src/openfst-populate-stamp/openfst-populate-patch.rule
+/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/openfst-populate-prefix/src/openfst-populate-stamp/openfst-populate-test.rule
+/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/openfst-populate-prefix/src/openfst-populate-stamp/openfst-populate-update.rule

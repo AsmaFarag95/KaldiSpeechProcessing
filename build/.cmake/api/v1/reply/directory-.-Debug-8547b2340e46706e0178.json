@@ -1,0 +1,223 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include"
+		],
+		"files" : 
+		[
+			"cmake/third_party/openfst.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 78,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 311,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 314,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/",
+			"paths" : 
+			[
+				{
+					"from" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/lib/libfst.16.dylib"
+			],
+			"targetId" : "fst::@ee16932f8d07e0cdc219",
+			"targetIndex" : 194,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/lib/libfst.dylib"
+			],
+			"targetId" : "fst::@ee16932f8d07e0cdc219",
+			"targetIndex" : 194,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/kaldi",
+			"paths" : 
+			[
+				"/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/cmake/kaldi-config.cmake",
+				"/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/cmake/kaldi-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/lib/cmake/kaldi",
+			"exportName" : "kaldi-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "fst::@ee16932f8d07e0cdc219",
+					"index" : 194
+				},
+				{
+					"id" : "kaldi-base::@da17c8cd1000ca7e4b79",
+					"index" : 373
+				},
+				{
+					"id" : "kaldi-matrix::@6b065bd649ab8144ccb5",
+					"index" : 389
+				},
+				{
+					"id" : "kaldi-cudamatrix::@47652f6b2def4382ecac",
+					"index" : 375
+				},
+				{
+					"id" : "kaldi-util::@6bc12a100e338ba65b7b",
+					"index" : 400
+				},
+				{
+					"id" : "kaldi-feat::@1ec5a2570dd1c5cd4b73",
+					"index" : 378
+				},
+				{
+					"id" : "kaldi-tree::@9fdfae0d1fef350d8020",
+					"index" : 399
+				},
+				{
+					"id" : "kaldi-gmm::@4c028554d7bb94a95844",
+					"index" : 380
+				},
+				{
+					"id" : "kaldi-transform::@7e2612d609737b4b9f3b",
+					"index" : 398
+				},
+				{
+					"id" : "kaldi-fstext::@65251d3619c47acc31ab",
+					"index" : 379
+				},
+				{
+					"id" : "kaldi-hmm::@086178c3ed9e97abaaa5",
+					"index" : 381
+				},
+				{
+					"id" : "kaldi-lm::@22850f6a26b0f389c2a7",
+					"index" : 387
+				},
+				{
+					"id" : "kaldi-decoder::@3123da6fb464b0da5d27",
+					"index" : 376
+				},
+				{
+					"id" : "kaldi-lat::@435cef781b9d28745ff1",
+					"index" : 385
+				},
+				{
+					"id" : "kaldi-nnet::@e86b9d98b968997431cf",
+					"index" : 390
+				},
+				{
+					"id" : "kaldi-nnet2::@a87f42533a5e7131ca03",
+					"index" : 391
+				},
+				{
+					"id" : "kaldi-nnet3::@98ab3b0ed93b7de43547",
+					"index" : 392
+				},
+				{
+					"id" : "kaldi-rnnlm::@e9180debe1e24eee548c",
+					"index" : 395
+				},
+				{
+					"id" : "kaldi-chain::@d12f94c655d22c991963",
+					"index" : 374
+				},
+				{
+					"id" : "kaldi-ivector::@5acb3231c6f5eac2b3e9",
+					"index" : 383
+				},
+				{
+					"id" : "kaldi-online::@59f0d10d4b600193a28f",
+					"index" : 393
+				},
+				{
+					"id" : "kaldi-online2::@17279ca94e7678d9b29d",
+					"index" : 394
+				},
+				{
+					"id" : "kaldi-kws::@ddbacada9292973767aa",
+					"index" : 384
+				},
+				{
+					"id" : "kaldi-itf::@2a4c9c06bc0c70645978",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/128f06b000c45dbc23a7016b4e76e05e/kaldi-targets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

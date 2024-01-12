@@ -1,0 +1,295 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/cudamatrix/cu-block-matrix-test"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_kaldi_test_executable",
+			"install",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories",
+			"include"
+		],
+		"files" : 
+		[
+			"cmake/Utils.cmake",
+			"src/cudamatrix/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/third_party/openfst.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 133,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 206,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 25,
+				"parent" : 6
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 13,
+				"parent" : 10
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -fPIE"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "HAVE_CLAPACK=1"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "KALDI_NO_PORTAUDIO=1"
+				}
+			],
+			"frameworks" : 
+			[
+				{
+					"path" : "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/Accelerate.framework"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/cudamatrix/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/util/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/matrix/.."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/base/.."
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "fst::@ee16932f8d07e0cdc219"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kaldi-base::@da17c8cd1000ca7e4b79"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kaldi-matrix::@6b065bd649ab8144ccb5"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kaldi-cudamatrix::@47652f6b2def4382ecac"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "kaldi-util::@6bc12a100e338ba65b7b"
+		}
+	],
+	"id" : "cu-block-matrix-test::@47652f6b2def4382ecac",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "testbin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/cudamatrix -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/util -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/matrix -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/base -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-build/src/lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "libkaldi-cudamatrix.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../util/libkaldi-util.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../matrix/libkaldi-matrix.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../base/libkaldi-base.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../_deps/openfst-build/src/lib/libfst.16.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lcblas",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-llapack",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "cu-block-matrix-test",
+	"nameOnDisk" : "cu-block-matrix-test",
+	"paths" : 
+	{
+		"build" : "src/cudamatrix",
+		"source" : "src/cudamatrix"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/cudamatrix/cu-block-matrix-test.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

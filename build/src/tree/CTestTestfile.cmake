@@ -1,0 +1,16 @@
+# CMake generated Testfile for 
+# Source directory: /Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/tree
+# Build directory: /Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/tree
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(build-tree-test "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/tree/build-tree-test")
+set_tests_properties(build-tree-test PROPERTIES  WORKING_DIRECTORY "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/tree" _BACKTRACE_TRIPLES "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/cmake/Utils.cmake;39;add_test;/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/tree/CMakeLists.txt;38;add_kaldi_test_executable;/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/tree/CMakeLists.txt;0;")
+add_test(build-tree-utils-test "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/tree/build-tree-utils-test")
+set_tests_properties(build-tree-utils-test PROPERTIES  WORKING_DIRECTORY "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/tree" _BACKTRACE_TRIPLES "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/cmake/Utils.cmake;39;add_test;/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/tree/CMakeLists.txt;39;add_kaldi_test_executable;/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/tree/CMakeLists.txt;0;")
+add_test(cluster-utils-test "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/tree/cluster-utils-test")
+set_tests_properties(cluster-utils-test PROPERTIES  WORKING_DIRECTORY "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/tree" _BACKTRACE_TRIPLES "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/cmake/Utils.cmake;39;add_test;/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/tree/CMakeLists.txt;40;add_kaldi_test_executable;/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/tree/CMakeLists.txt;0;")
+add_test(context-dep-test "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/tree/context-dep-test")
+set_tests_properties(context-dep-test PROPERTIES  WORKING_DIRECTORY "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/tree" _BACKTRACE_TRIPLES "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/cmake/Utils.cmake;39;add_test;/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/tree/CMakeLists.txt;41;add_kaldi_test_executable;/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/tree/CMakeLists.txt;0;")
+add_test(event-map-test "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/tree/event-map-test")
+set_tests_properties(event-map-test PROPERTIES  WORKING_DIRECTORY "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/tree" _BACKTRACE_TRIPLES "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/cmake/Utils.cmake;39;add_test;/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/tree/CMakeLists.txt;42;add_kaldi_test_executable;/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/tree/CMakeLists.txt;0;")

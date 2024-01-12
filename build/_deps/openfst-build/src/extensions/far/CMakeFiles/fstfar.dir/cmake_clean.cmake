@@ -1,0 +1,15 @@
+file(REMOVE_RECURSE
+  ".16"
+  "CMakeFiles/fstfar.dir/stlist.cc.o"
+  "CMakeFiles/fstfar.dir/stlist.cc.o.d"
+  "CMakeFiles/fstfar.dir/sttable.cc.o"
+  "CMakeFiles/fstfar.dir/sttable.cc.o.d"
+  "libfstfar.16.dylib"
+  "libfstfar.dylib"
+  "libfstfar.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/fstfar.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

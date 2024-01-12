@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  ".16"
+  "CMakeFiles/fstcompact.dir/compact16_acceptor-fst.cc.o"
+  "CMakeFiles/fstcompact.dir/compact16_acceptor-fst.cc.o.d"
+  "CMakeFiles/fstcompact.dir/compact16_string-fst.cc.o"
+  "CMakeFiles/fstcompact.dir/compact16_string-fst.cc.o.d"
+  "CMakeFiles/fstcompact.dir/compact16_unweighted-fst.cc.o"
+  "CMakeFiles/fstcompact.dir/compact16_unweighted-fst.cc.o.d"
+  "CMakeFiles/fstcompact.dir/compact16_unweighted_acceptor-fst.cc.o"
+  "CMakeFiles/fstcompact.dir/compact16_unweighted_acceptor-fst.cc.o.d"
+  "CMakeFiles/fstcompact.dir/compact16_weighted_string-fst.cc.o"
+  "CMakeFiles/fstcompact.dir/compact16_weighted_string-fst.cc.o.d"
+  "CMakeFiles/fstcompact.dir/compact64_acceptor-fst.cc.o"
+  "CMakeFiles/fstcompact.dir/compact64_acceptor-fst.cc.o.d"
+  "CMakeFiles/fstcompact.dir/compact64_string-fst.cc.o"
+  "CMakeFiles/fstcompact.dir/compact64_string-fst.cc.o.d"
+  "CMakeFiles/fstcompact.dir/compact64_unweighted-fst.cc.o"
+  "CMakeFiles/fstcompact.dir/compact64_unweighted-fst.cc.o.d"
+  "CMakeFiles/fstcompact.dir/compact64_unweighted_acceptor-fst.cc.o"
+  "CMakeFiles/fstcompact.dir/compact64_unweighted_acceptor-fst.cc.o.d"
+  "CMakeFiles/fstcompact.dir/compact64_weighted_string-fst.cc.o"
+  "CMakeFiles/fstcompact.dir/compact64_weighted_string-fst.cc.o.d"
+  "CMakeFiles/fstcompact.dir/compact8_acceptor-fst.cc.o"
+  "CMakeFiles/fstcompact.dir/compact8_acceptor-fst.cc.o.d"
+  "CMakeFiles/fstcompact.dir/compact8_string-fst.cc.o"
+  "CMakeFiles/fstcompact.dir/compact8_string-fst.cc.o.d"
+  "CMakeFiles/fstcompact.dir/compact8_unweighted-fst.cc.o"
+  "CMakeFiles/fstcompact.dir/compact8_unweighted-fst.cc.o.d"
+  "CMakeFiles/fstcompact.dir/compact8_unweighted_acceptor-fst.cc.o"
+  "CMakeFiles/fstcompact.dir/compact8_unweighted_acceptor-fst.cc.o.d"
+  "CMakeFiles/fstcompact.dir/compact8_weighted_string-fst.cc.o"
+  "CMakeFiles/fstcompact.dir/compact8_weighted_string-fst.cc.o.d"
+  "libfstcompact.16.dylib"
+  "libfstcompact.dylib"
+  "libfstcompact.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/fstcompact.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

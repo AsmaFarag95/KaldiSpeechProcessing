@@ -1,0 +1,245 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_kaldi_test_executable"
+		],
+		"files" : 
+		[
+			"cmake/Utils.cmake",
+			"src/gmm/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 66,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/gmm/am-diag-gmm-test"
+			],
+			"targetId" : "am-diag-gmm-test::@4c028554d7bb94a95844",
+			"targetIndex" : 47,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/gmm/diag-gmm-test"
+			],
+			"targetId" : "diag-gmm-test::@4c028554d7bb94a95844",
+			"targetIndex" : 157,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/gmm/ebw-diag-gmm-test"
+			],
+			"targetId" : "ebw-diag-gmm-test::@4c028554d7bb94a95844",
+			"targetIndex" : 159,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/gmm/full-gmm-test"
+			],
+			"targetId" : "full-gmm-test::@4c028554d7bb94a95844",
+			"targetIndex" : 268,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/gmm/mle-am-diag-gmm-test"
+			],
+			"targetId" : "mle-am-diag-gmm-test::@4c028554d7bb94a95844",
+			"targetIndex" : 485,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/gmm/mle-diag-gmm-test"
+			],
+			"targetId" : "mle-diag-gmm-test::@4c028554d7bb94a95844",
+			"targetIndex" : 486,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/gmm/mle-full-gmm-test"
+			],
+			"targetId" : "mle-full-gmm-test::@4c028554d7bb94a95844",
+			"targetIndex" : 487,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "kaldi",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/gmm/libkaldi-gmm.dylib"
+			],
+			"targetId" : "kaldi-gmm::@4c028554d7bb94a95844",
+			"targetIndex" : 380,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "kaldi",
+			"destination" : "include/kaldi/gmm",
+			"paths" : 
+			[
+				"src/gmm/am-diag-gmm.h",
+				"src/gmm/decodable-am-diag-gmm.h",
+				"src/gmm/diag-gmm-inl.h",
+				"src/gmm/diag-gmm-normal.h",
+				"src/gmm/diag-gmm.h",
+				"src/gmm/ebw-diag-gmm.h",
+				"src/gmm/full-gmm-inl.h",
+				"src/gmm/full-gmm-normal.h",
+				"src/gmm/full-gmm.h",
+				"src/gmm/indirect-diff-diag-gmm.h",
+				"src/gmm/mle-am-diag-gmm.h",
+				"src/gmm/mle-diag-gmm.h",
+				"src/gmm/mle-full-gmm.h",
+				"src/gmm/model-common.h",
+				"src/gmm/model-test-common.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/gmm",
+		"source" : "src/gmm"
+	}
+}

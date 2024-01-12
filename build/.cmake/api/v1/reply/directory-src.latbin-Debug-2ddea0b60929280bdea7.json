@@ -1,0 +1,1445 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_kaldi_executable"
+		],
+		"files" : 
+		[
+			"cmake/Utils.cmake",
+			"src/latbin/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 23
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 29
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 31
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 33
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 37
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 39
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 41
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 43
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 45
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 47
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 49
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 51
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 53
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 55
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 57
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 59
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 61
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 63
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 65
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 67
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 69
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 71
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 73
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 75
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 77
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 79
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 81
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 83
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 85
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 87
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 89
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 91
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 93
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 95
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 97
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 99
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 101
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 103
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 105
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 107
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 109
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 111
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 113
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 115
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 117
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-lmrescore-const-arpa"
+			],
+			"targetId" : "lattice-lmrescore-const-arpa::@0e1742f034cae974b451",
+			"targetIndex" : 437,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-arc-post"
+			],
+			"targetId" : "lattice-arc-post::@0e1742f034cae974b451",
+			"targetIndex" : 414,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-interp"
+			],
+			"targetId" : "lattice-interp::@0e1742f034cae974b451",
+			"targetIndex" : 434,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-determinize-phone-pruned"
+			],
+			"targetId" : "lattice-determinize-phone-pruned::@0e1742f034cae974b451",
+			"targetIndex" : 426,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-lmrescore"
+			],
+			"targetId" : "lattice-lmrescore::@0e1742f034cae974b451",
+			"targetIndex" : 436,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-oracle"
+			],
+			"targetId" : "lattice-oracle::@0e1742f034cae974b451",
+			"targetIndex" : 444,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-to-smbr-post"
+			],
+			"targetId" : "lattice-to-smbr-post::@0e1742f034cae974b451",
+			"targetIndex" : 460,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-limit-depth"
+			],
+			"targetId" : "lattice-limit-depth::@0e1742f034cae974b451",
+			"targetIndex" : 435,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-add-penalty"
+			],
+			"targetId" : "lattice-add-penalty::@0e1742f034cae974b451",
+			"targetIndex" : 409,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/nbest-to-ctm"
+			],
+			"targetId" : "nbest-to-ctm::@0e1742f034cae974b451",
+			"targetIndex" : 495,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-boost-ali"
+			],
+			"targetId" : "lattice-boost-ali::@0e1742f034cae974b451",
+			"targetIndex" : 416,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-prune"
+			],
+			"targetId" : "lattice-prune::@0e1742f034cae974b451",
+			"targetIndex" : 447,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-lmrescore-rnnlm"
+			],
+			"targetId" : "lattice-lmrescore-rnnlm::@0e1742f034cae974b451",
+			"targetIndex" : 441,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-expand"
+			],
+			"targetId" : "lattice-expand::@0e1742f034cae974b451",
+			"targetIndex" : 432,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-compose"
+			],
+			"targetId" : "lattice-compose::@0e1742f034cae974b451",
+			"targetIndex" : 418,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-lmrescore-kaldi-rnnlm"
+			],
+			"targetId" : "lattice-lmrescore-kaldi-rnnlm::@0e1742f034cae974b451",
+			"targetIndex" : 438,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-depth"
+			],
+			"targetId" : "lattice-depth::@0e1742f034cae974b451",
+			"targetIndex" : 422,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-combine"
+			],
+			"targetId" : "lattice-combine::@0e1742f034cae974b451",
+			"targetIndex" : 417,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-rescore-mapped"
+			],
+			"targetId" : "lattice-rescore-mapped::@0e1742f034cae974b451",
+			"targetIndex" : 449,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-determinize"
+			],
+			"targetId" : "lattice-determinize::@0e1742f034cae974b451",
+			"targetIndex" : 424,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/linear-to-nbest"
+			],
+			"targetId" : "linear-to-nbest::@0e1742f034cae974b451",
+			"targetIndex" : 467,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-to-post"
+			],
+			"targetId" : "lattice-to-post::@0e1742f034cae974b451",
+			"targetIndex" : 459,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-reverse"
+			],
+			"targetId" : "lattice-reverse::@0e1742f034cae974b451",
+			"targetIndex" : 450,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-minimize"
+			],
+			"targetId" : "lattice-minimize::@0e1742f034cae974b451",
+			"targetIndex" : 443,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 50,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-best-path"
+			],
+			"targetId" : "lattice-best-path::@0e1742f034cae974b451",
+			"targetIndex" : 415,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 52,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-union"
+			],
+			"targetId" : "lattice-union::@0e1742f034cae974b451",
+			"targetIndex" : 461,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 54,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-copy"
+			],
+			"targetId" : "lattice-copy::@0e1742f034cae974b451",
+			"targetIndex" : 420,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 56,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-determinize-pruned"
+			],
+			"targetId" : "lattice-determinize-pruned::@0e1742f034cae974b451",
+			"targetIndex" : 428,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 58,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-path-cover"
+			],
+			"targetId" : "lattice-path-cover::@0e1742f034cae974b451",
+			"targetIndex" : 445,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 60,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-to-fst"
+			],
+			"targetId" : "lattice-to-fst::@0e1742f034cae974b451",
+			"targetIndex" : 454,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 62,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-scale"
+			],
+			"targetId" : "lattice-scale::@0e1742f034cae974b451",
+			"targetIndex" : 452,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 64,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-rmali"
+			],
+			"targetId" : "lattice-rmali::@0e1742f034cae974b451",
+			"targetIndex" : 451,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 66,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-determinize-phone-pruned-parallel"
+			],
+			"targetId" : "lattice-determinize-phone-pruned-parallel::@0e1742f034cae974b451",
+			"targetIndex" : 427,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 68,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-expand-ngram"
+			],
+			"targetId" : "lattice-expand-ngram::@0e1742f034cae974b451",
+			"targetIndex" : 433,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 70,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/nbest-to-linear"
+			],
+			"targetId" : "nbest-to-linear::@0e1742f034cae974b451",
+			"targetIndex" : 497,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 72,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-lmrescore-pruned"
+			],
+			"targetId" : "lattice-lmrescore-pruned::@0e1742f034cae974b451",
+			"targetIndex" : 440,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 74,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-determinize-pruned-parallel"
+			],
+			"targetId" : "lattice-determinize-pruned-parallel::@0e1742f034cae974b451",
+			"targetIndex" : 429,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 76,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/nbest-to-prons"
+			],
+			"targetId" : "nbest-to-prons::@0e1742f034cae974b451",
+			"targetIndex" : 498,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 78,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-1best"
+			],
+			"targetId" : "lattice-1best::@0e1742f034cae974b451",
+			"targetIndex" : 407,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 80,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-mbr-decode"
+			],
+			"targetId" : "lattice-mbr-decode::@0e1742f034cae974b451",
+			"targetIndex" : 442,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 82,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-difference"
+			],
+			"targetId" : "lattice-difference::@0e1742f034cae974b451",
+			"targetIndex" : 430,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 84,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-to-phone-lattice"
+			],
+			"targetId" : "lattice-to-phone-lattice::@0e1742f034cae974b451",
+			"targetIndex" : 458,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 86,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-to-ctm-conf"
+			],
+			"targetId" : "lattice-to-ctm-conf::@0e1742f034cae974b451",
+			"targetIndex" : 453,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 88,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-copy-backoff"
+			],
+			"targetId" : "lattice-copy-backoff::@0e1742f034cae974b451",
+			"targetIndex" : 421,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 90,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-confidence"
+			],
+			"targetId" : "lattice-confidence::@0e1742f034cae974b451",
+			"targetIndex" : 419,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 92,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-to-nbest"
+			],
+			"targetId" : "lattice-to-nbest::@0e1742f034cae974b451",
+			"targetIndex" : 457,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 94,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-determinize-non-compact"
+			],
+			"targetId" : "lattice-determinize-non-compact::@0e1742f034cae974b451",
+			"targetIndex" : 425,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 96,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/nbest-to-lattice"
+			],
+			"targetId" : "nbest-to-lattice::@0e1742f034cae974b451",
+			"targetIndex" : 496,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 98,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-to-mpe-post"
+			],
+			"targetId" : "lattice-to-mpe-post::@0e1742f034cae974b451",
+			"targetIndex" : 456,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 100,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-add-trans-probs"
+			],
+			"targetId" : "lattice-add-trans-probs::@0e1742f034cae974b451",
+			"targetIndex" : 410,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 102,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-add-nnlmscore"
+			],
+			"targetId" : "lattice-add-nnlmscore::@0e1742f034cae974b451",
+			"targetIndex" : 408,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 104,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-depth-per-frame"
+			],
+			"targetId" : "lattice-depth-per-frame::@0e1742f034cae974b451",
+			"targetIndex" : 423,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 106,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-align-phones"
+			],
+			"targetId" : "lattice-align-phones::@0e1742f034cae974b451",
+			"targetIndex" : 411,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 108,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-push"
+			],
+			"targetId" : "lattice-push::@0e1742f034cae974b451",
+			"targetIndex" : 448,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 110,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-equivalent"
+			],
+			"targetId" : "lattice-equivalent::@0e1742f034cae974b451",
+			"targetIndex" : 431,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 112,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-project"
+			],
+			"targetId" : "lattice-project::@0e1742f034cae974b451",
+			"targetIndex" : 446,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 114,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-align-words"
+			],
+			"targetId" : "lattice-align-words::@0e1742f034cae974b451",
+			"targetIndex" : 412,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 116,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-align-words-lexicon"
+			],
+			"targetId" : "lattice-align-words-lexicon::@0e1742f034cae974b451",
+			"targetIndex" : 413,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 118,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/latbin/lattice-lmrescore-kaldi-rnnlm-pruned"
+			],
+			"targetId" : "lattice-lmrescore-kaldi-rnnlm-pruned::@0e1742f034cae974b451",
+			"targetIndex" : 439,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/latbin",
+		"source" : "src/latbin"
+	}
+}

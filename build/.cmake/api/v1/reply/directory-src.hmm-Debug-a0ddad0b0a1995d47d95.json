@@ -1,0 +1,164 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_kaldi_test_executable"
+		],
+		"files" : 
+		[
+			"cmake/Utils.cmake",
+			"src/hmm/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/hmm/hmm-topology-test"
+			],
+			"targetId" : "hmm-topology-test::@086178c3ed9e97abaaa5",
+			"targetIndex" : 347,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/hmm/hmm-utils-test"
+			],
+			"targetId" : "hmm-utils-test::@086178c3ed9e97abaaa5",
+			"targetIndex" : 348,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/hmm/posterior-test"
+			],
+			"targetId" : "posterior-test::@086178c3ed9e97abaaa5",
+			"targetIndex" : 681,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/hmm/transition-model-test"
+			],
+			"targetId" : "transition-model-test::@086178c3ed9e97abaaa5",
+			"targetIndex" : 738,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "kaldi",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/hmm/libkaldi-hmm.dylib"
+			],
+			"targetId" : "kaldi-hmm::@086178c3ed9e97abaaa5",
+			"targetIndex" : 381,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "kaldi",
+			"destination" : "include/kaldi/hmm",
+			"paths" : 
+			[
+				"src/hmm/hmm-test-utils.h",
+				"src/hmm/hmm-topology.h",
+				"src/hmm/hmm-utils.h",
+				"src/hmm/posterior.h",
+				"src/hmm/transition-model.h",
+				"src/hmm/tree-accu.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/hmm",
+		"source" : "src/hmm"
+	}
+}

@@ -1,0 +1,1781 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_kaldi_executable"
+		],
+		"files" : 
+		[
+			"cmake/Utils.cmake",
+			"src/gmmbin/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 23
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 29
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 31
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 33
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 37
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 39
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 41
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 43
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 45
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 47
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 49
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 51
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 53
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 55
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 57
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 59
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 61
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 63
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 65
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 67
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 69
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 71
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 73
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 75
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 77
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 79
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 81
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 83
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 85
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 87
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 89
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 91
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 93
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 95
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 97
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 99
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 101
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 103
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 105
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 107
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 109
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 111
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 113
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 115
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 117
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 119
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 121
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 123
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 125
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 127
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 66,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 129
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 131
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 133
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 135
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 137
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 139
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 141
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 143
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 145
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-make-regtree"
+			],
+			"targetId" : "gmm-make-regtree::@aa1648778ffe1b9806e8",
+			"targetIndex" : 337,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-boost-silence"
+			],
+			"targetId" : "gmm-boost-silence::@aa1648778ffe1b9806e8",
+			"targetIndex" : 284,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-global-est-lvtln-trans"
+			],
+			"targetId" : "gmm-global-est-lvtln-trans::@aa1648778ffe1b9806e8",
+			"targetIndex" : 315,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-init-mono"
+			],
+			"targetId" : "gmm-init-mono::@aa1648778ffe1b9806e8",
+			"targetIndex" : 329,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-init-lvtln"
+			],
+			"targetId" : "gmm-init-lvtln::@aa1648778ffe1b9806e8",
+			"targetIndex" : 326,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-adapt-map"
+			],
+			"targetId" : "gmm-adapt-map::@aa1648778ffe1b9806e8",
+			"targetIndex" : 278,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-acc-stats"
+			],
+			"targetId" : "gmm-acc-stats::@aa1648778ffe1b9806e8",
+			"targetIndex" : 274,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-copy"
+			],
+			"targetId" : "gmm-copy::@aa1648778ffe1b9806e8",
+			"targetIndex" : 286,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-est-map"
+			],
+			"targetId" : "gmm-est-map::@aa1648778ffe1b9806e8",
+			"targetIndex" : 302,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-init-model"
+			],
+			"targetId" : "gmm-init-model::@aa1648778ffe1b9806e8",
+			"targetIndex" : 327,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-ismooth-stats"
+			],
+			"targetId" : "gmm-ismooth-stats::@aa1648778ffe1b9806e8",
+			"targetIndex" : 330,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-train-lvtln-special"
+			],
+			"targetId" : "gmm-train-lvtln-special::@aa1648778ffe1b9806e8",
+			"targetIndex" : 342,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-est-weights-ebw"
+			],
+			"targetId" : "gmm-est-weights-ebw::@aa1648778ffe1b9806e8",
+			"targetIndex" : 307,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-global-copy"
+			],
+			"targetId" : "gmm-global-copy::@aa1648778ffe1b9806e8",
+			"targetIndex" : 312,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-latgen-map"
+			],
+			"targetId" : "gmm-latgen-map::@aa1648778ffe1b9806e8",
+			"targetIndex" : 335,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-init-model-flat"
+			],
+			"targetId" : "gmm-init-model-flat::@aa1648778ffe1b9806e8",
+			"targetIndex" : 328,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-est-fmllr-global"
+			],
+			"targetId" : "gmm-est-fmllr-global::@aa1648778ffe1b9806e8",
+			"targetIndex" : 296,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-global-acc-stats-twofeats"
+			],
+			"targetId" : "gmm-global-acc-stats-twofeats::@aa1648778ffe1b9806e8",
+			"targetIndex" : 311,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-latgen-faster"
+			],
+			"targetId" : "gmm-latgen-faster::@aa1648778ffe1b9806e8",
+			"targetIndex" : 332,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-est-fmllr-gpost"
+			],
+			"targetId" : "gmm-est-fmllr-gpost::@aa1648778ffe1b9806e8",
+			"targetIndex" : 297,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-post-to-gpost"
+			],
+			"targetId" : "gmm-post-to-gpost::@aa1648778ffe1b9806e8",
+			"targetIndex" : 339,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-decode-biglm-faster"
+			],
+			"targetId" : "gmm-decode-biglm-faster::@aa1648778ffe1b9806e8",
+			"targetIndex" : 287,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-basis-fmllr-training"
+			],
+			"targetId" : "gmm-basis-fmllr-training::@aa1648778ffe1b9806e8",
+			"targetIndex" : 283,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-est-fmllr-raw"
+			],
+			"targetId" : "gmm-est-fmllr-raw::@aa1648778ffe1b9806e8",
+			"targetIndex" : 298,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 50,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-est-regtree-fmllr-ali"
+			],
+			"targetId" : "gmm-est-regtree-fmllr-ali::@aa1648778ffe1b9806e8",
+			"targetIndex" : 304,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 52,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-basis-fmllr-accs-gpost"
+			],
+			"targetId" : "gmm-basis-fmllr-accs-gpost::@aa1648778ffe1b9806e8",
+			"targetIndex" : 282,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 54,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-est-basis-fmllr-gpost"
+			],
+			"targetId" : "gmm-est-basis-fmllr-gpost::@aa1648778ffe1b9806e8",
+			"targetIndex" : 294,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 56,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-compute-likes"
+			],
+			"targetId" : "gmm-compute-likes::@aa1648778ffe1b9806e8",
+			"targetIndex" : 285,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 58,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-global-acc-stats"
+			],
+			"targetId" : "gmm-global-acc-stats::@aa1648778ffe1b9806e8",
+			"targetIndex" : 310,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 60,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-acc-stats2"
+			],
+			"targetId" : "gmm-acc-stats2::@aa1648778ffe1b9806e8",
+			"targetIndex" : 277,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 62,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-latgen-simple"
+			],
+			"targetId" : "gmm-latgen-simple::@aa1648778ffe1b9806e8",
+			"targetIndex" : 336,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 64,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-basis-fmllr-accs"
+			],
+			"targetId" : "gmm-basis-fmllr-accs::@aa1648778ffe1b9806e8",
+			"targetIndex" : 281,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 66,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-gselect"
+			],
+			"targetId" : "gmm-gselect::@aa1648778ffe1b9806e8",
+			"targetIndex" : 323,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 68,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-est-fmllr"
+			],
+			"targetId" : "gmm-est-fmllr::@aa1648778ffe1b9806e8",
+			"targetIndex" : 295,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 70,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-est-rescale"
+			],
+			"targetId" : "gmm-est-rescale::@aa1648778ffe1b9806e8",
+			"targetIndex" : 306,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 72,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-acc-mllt-global"
+			],
+			"targetId" : "gmm-acc-mllt-global::@aa1648778ffe1b9806e8",
+			"targetIndex" : 273,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 74,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-global-init-from-feats"
+			],
+			"targetId" : "gmm-global-init-from-feats::@aa1648778ffe1b9806e8",
+			"targetIndex" : 320,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 76,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-init-biphone"
+			],
+			"targetId" : "gmm-init-biphone::@aa1648778ffe1b9806e8",
+			"targetIndex" : 325,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 78,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-est-regtree-mllr"
+			],
+			"targetId" : "gmm-est-regtree-mllr::@aa1648778ffe1b9806e8",
+			"targetIndex" : 305,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 80,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-latgen-faster-parallel"
+			],
+			"targetId" : "gmm-latgen-faster-parallel::@aa1648778ffe1b9806e8",
+			"targetIndex" : 333,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 82,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-global-to-fgmm"
+			],
+			"targetId" : "gmm-global-to-fgmm::@aa1648778ffe1b9806e8",
+			"targetIndex" : 322,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 84,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-global-info"
+			],
+			"targetId" : "gmm-global-info::@aa1648778ffe1b9806e8",
+			"targetIndex" : 319,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 86,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-global-est"
+			],
+			"targetId" : "gmm-global-est::@aa1648778ffe1b9806e8",
+			"targetIndex" : 313,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 88,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-est-regtree-fmllr"
+			],
+			"targetId" : "gmm-est-regtree-fmllr::@aa1648778ffe1b9806e8",
+			"targetIndex" : 303,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 90,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-est-basis-fmllr"
+			],
+			"targetId" : "gmm-est-basis-fmllr::@aa1648778ffe1b9806e8",
+			"targetIndex" : 293,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 92,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-est"
+			],
+			"targetId" : "gmm-est::@aa1648778ffe1b9806e8",
+			"targetIndex" : 292,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 94,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-acc-mllt"
+			],
+			"targetId" : "gmm-acc-mllt::@aa1648778ffe1b9806e8",
+			"targetIndex" : 272,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 96,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-info"
+			],
+			"targetId" : "gmm-info::@aa1648778ffe1b9806e8",
+			"targetIndex" : 324,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 98,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-est-gaussians-ebw"
+			],
+			"targetId" : "gmm-est-gaussians-ebw::@aa1648778ffe1b9806e8",
+			"targetIndex" : 300,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 100,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-decode-faster-regtree-fmllr"
+			],
+			"targetId" : "gmm-decode-faster-regtree-fmllr::@aa1648778ffe1b9806e8",
+			"targetIndex" : 289,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 102,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-global-get-post"
+			],
+			"targetId" : "gmm-global-get-post::@aa1648778ffe1b9806e8",
+			"targetIndex" : 317,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 104,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-acc-stats-ali"
+			],
+			"targetId" : "gmm-acc-stats-ali::@aa1648778ffe1b9806e8",
+			"targetIndex" : 275,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 106,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-get-stats-deriv"
+			],
+			"targetId" : "gmm-get-stats-deriv::@aa1648778ffe1b9806e8",
+			"targetIndex" : 309,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 108,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-est-fmllr-raw-gpost"
+			],
+			"targetId" : "gmm-est-fmllr-raw-gpost::@aa1648778ffe1b9806e8",
+			"targetIndex" : 299,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 110,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-latgen-biglm-faster"
+			],
+			"targetId" : "gmm-latgen-biglm-faster::@aa1648778ffe1b9806e8",
+			"targetIndex" : 331,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 112,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-est-lvtln-trans"
+			],
+			"targetId" : "gmm-est-lvtln-trans::@aa1648778ffe1b9806e8",
+			"targetIndex" : 301,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 114,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-decode-simple"
+			],
+			"targetId" : "gmm-decode-simple::@aa1648778ffe1b9806e8",
+			"targetIndex" : 291,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 116,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-sum-accs"
+			],
+			"targetId" : "gmm-sum-accs::@aa1648778ffe1b9806e8",
+			"targetIndex" : 341,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 118,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-global-gselect-to-post"
+			],
+			"targetId" : "gmm-global-gselect-to-post::@aa1648778ffe1b9806e8",
+			"targetIndex" : 318,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 120,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-acc-stats-twofeats"
+			],
+			"targetId" : "gmm-acc-stats-twofeats::@aa1648778ffe1b9806e8",
+			"targetIndex" : 276,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 122,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-transform-means-global"
+			],
+			"targetId" : "gmm-transform-means-global::@aa1648778ffe1b9806e8",
+			"targetIndex" : 344,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 124,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-latgen-faster-regtree-fmllr"
+			],
+			"targetId" : "gmm-latgen-faster-regtree-fmllr::@aa1648778ffe1b9806e8",
+			"targetIndex" : 334,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 126,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-global-get-frame-likes"
+			],
+			"targetId" : "gmm-global-get-frame-likes::@aa1648778ffe1b9806e8",
+			"targetIndex" : 316,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 128,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-rescore-lattice"
+			],
+			"targetId" : "gmm-rescore-lattice::@aa1648778ffe1b9806e8",
+			"targetIndex" : 340,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 130,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-mixup"
+			],
+			"targetId" : "gmm-mixup::@aa1648778ffe1b9806e8",
+			"targetIndex" : 338,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 132,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-align"
+			],
+			"targetId" : "gmm-align::@aa1648778ffe1b9806e8",
+			"targetIndex" : 279,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 134,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-global-est-fmllr"
+			],
+			"targetId" : "gmm-global-est-fmllr::@aa1648778ffe1b9806e8",
+			"targetIndex" : 314,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 136,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-transform-means"
+			],
+			"targetId" : "gmm-transform-means::@aa1648778ffe1b9806e8",
+			"targetIndex" : 343,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 138,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-align-compiled"
+			],
+			"targetId" : "gmm-align-compiled::@aa1648778ffe1b9806e8",
+			"targetIndex" : 280,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 140,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-decode-faster-regtree-mllr"
+			],
+			"targetId" : "gmm-decode-faster-regtree-mllr::@aa1648778ffe1b9806e8",
+			"targetIndex" : 290,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 142,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-decode-faster"
+			],
+			"targetId" : "gmm-decode-faster::@aa1648778ffe1b9806e8",
+			"targetIndex" : 288,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 144,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-global-sum-accs"
+			],
+			"targetId" : "gmm-global-sum-accs::@aa1648778ffe1b9806e8",
+			"targetIndex" : 321,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 146,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/gmmbin/gmm-fmpe-acc-stats"
+			],
+			"targetId" : "gmm-fmpe-acc-stats::@aa1648778ffe1b9806e8",
+			"targetIndex" : 308,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/gmmbin",
+		"source" : "src/gmmbin"
+	}
+}

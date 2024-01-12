@@ -1,0 +1,63 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/kws/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "kaldi",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/kws/libkaldi-kws.dylib"
+			],
+			"targetId" : "kaldi-kws::@ddbacada9292973767aa",
+			"targetIndex" : 384,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "kaldi",
+			"destination" : "include/kaldi/kws",
+			"paths" : 
+			[
+				"src/kws/kaldi-kws.h",
+				"src/kws/kws-functions.h",
+				"src/kws/kws-scoring.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/kws",
+		"source" : "src/kws"
+	}
+}

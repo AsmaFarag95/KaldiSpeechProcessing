@@ -1,0 +1,59 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/lib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/lib/libfst.16.dylib"
+			],
+			"targetId" : "fst::@ee16932f8d07e0cdc219",
+			"targetIndex" : 194,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/lib/libfst.dylib"
+			],
+			"targetId" : "fst::@ee16932f8d07e0cdc219",
+			"targetIndex" : 194,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/openfst-build/src/lib",
+		"source" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/lib"
+	}
+}

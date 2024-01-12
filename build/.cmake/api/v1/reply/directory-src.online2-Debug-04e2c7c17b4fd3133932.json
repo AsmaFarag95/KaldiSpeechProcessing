@@ -1,0 +1,74 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/online2/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "kaldi",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/online2/libkaldi-online2.dylib"
+			],
+			"targetId" : "kaldi-online2::@17279ca94e7678d9b29d",
+			"targetIndex" : 394,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "kaldi",
+			"destination" : "include/kaldi/online2",
+			"paths" : 
+			[
+				"src/online2/online-endpoint.h",
+				"src/online2/online-feature-pipeline.h",
+				"src/online2/online-gmm-decodable.h",
+				"src/online2/online-gmm-decoding.h",
+				"src/online2/online-ivector-feature.h",
+				"src/online2/online-nnet2-decoding-threaded.h",
+				"src/online2/online-nnet2-decoding.h",
+				"src/online2/online-nnet2-feature-pipeline.h",
+				"src/online2/online-nnet3-decoding.h",
+				"src/online2/online-nnet3-incremental-decoding.h",
+				"src/online2/online-nnet3-wake-word-faster-decoder.h",
+				"src/online2/online-speex-wrapper.h",
+				"src/online2/online-timing.h",
+				"src/online2/onlinebin-util.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/online2",
+		"source" : "src/online2"
+	}
+}

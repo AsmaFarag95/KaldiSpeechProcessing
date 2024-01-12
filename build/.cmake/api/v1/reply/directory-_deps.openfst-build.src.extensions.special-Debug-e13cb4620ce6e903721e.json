@@ -1,0 +1,144 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_module"
+		],
+		"files" : 
+		[
+			"/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/extensions/special/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/special/libfstspecial.16.dylib"
+			],
+			"targetId" : "fstspecial::@f9c3ab2076526a32a3bc",
+			"targetIndex" : 261,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/special/libfstspecial.dylib"
+			],
+			"targetId" : "fstspecial::@f9c3ab2076526a32a3bc",
+			"targetIndex" : 261,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/special/fstspecial"
+			],
+			"targetId" : "fstspecial-bin::@f9c3ab2076526a32a3bc",
+			"targetIndex" : 262,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/fst",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/special/libphi-fst.so"
+			],
+			"targetId" : "phi-fst::@f9c3ab2076526a32a3bc",
+			"targetIndex" : 671,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/fst",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/special/librho-fst.so"
+			],
+			"targetId" : "rho-fst::@f9c3ab2076526a32a3bc",
+			"targetIndex" : 701,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/fst",
+			"paths" : 
+			[
+				"_deps/openfst-build/src/extensions/special/libsigma-fst.so"
+			],
+			"targetId" : "sigma-fst::@f9c3ab2076526a32a3bc",
+			"targetIndex" : 717,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/openfst-build/src/extensions/special",
+		"source" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/extensions/special"
+	}
+}

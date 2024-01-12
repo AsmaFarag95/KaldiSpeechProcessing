@@ -1,0 +1,316 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_kaldi_test_executable"
+		],
+		"files" : 
+		[
+			"cmake/Utils.cmake",
+			"src/feat/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 69,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/feat/feature-fbank-test"
+			],
+			"targetId" : "feature-fbank-test::@1ec5a2570dd1c5cd4b73",
+			"targetIndex" : 181,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/feat/feature-functions-test"
+			],
+			"targetId" : "feature-functions-test::@1ec5a2570dd1c5cd4b73",
+			"targetIndex" : 182,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/feat/feature-mfcc-test"
+			],
+			"targetId" : "feature-mfcc-test::@1ec5a2570dd1c5cd4b73",
+			"targetIndex" : 183,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/feat/feature-plp-test"
+			],
+			"targetId" : "feature-plp-test::@1ec5a2570dd1c5cd4b73",
+			"targetIndex" : 184,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/feat/feature-sdc-test"
+			],
+			"targetId" : "feature-sdc-test::@1ec5a2570dd1c5cd4b73",
+			"targetIndex" : 185,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/feat/online-feature-test"
+			],
+			"targetId" : "online-feature-test::@1ec5a2570dd1c5cd4b73",
+			"targetIndex" : 644,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/feat/pitch-functions-test"
+			],
+			"targetId" : "pitch-functions-test::@1ec5a2570dd1c5cd4b73",
+			"targetIndex" : 673,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/feat/resample-test"
+			],
+			"targetId" : "resample-test::@1ec5a2570dd1c5cd4b73",
+			"targetIndex" : 700,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/feat/signal-test"
+			],
+			"targetId" : "signal-test::@1ec5a2570dd1c5cd4b73",
+			"targetIndex" : 718,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/feat/wave-reader-test"
+			],
+			"targetId" : "wave-reader-test::@1ec5a2570dd1c5cd4b73",
+			"targetIndex" : 746,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "kaldi",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/feat/libkaldi-feat.dylib"
+			],
+			"targetId" : "kaldi-feat::@1ec5a2570dd1c5cd4b73",
+			"targetIndex" : 378,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "kaldi",
+			"destination" : "include/kaldi/feat",
+			"paths" : 
+			[
+				"src/feat/feature-common-inl.h",
+				"src/feat/feature-common.h",
+				"src/feat/feature-fbank.h",
+				"src/feat/feature-functions.h",
+				"src/feat/feature-mfcc.h",
+				"src/feat/feature-plp.h",
+				"src/feat/feature-spectrogram.h",
+				"src/feat/feature-window.h",
+				"src/feat/mel-computations.h",
+				"src/feat/online-feature.h",
+				"src/feat/pitch-functions.h",
+				"src/feat/resample.h",
+				"src/feat/signal.h",
+				"src/feat/wave-reader.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/feat",
+		"source" : "src/feat"
+	}
+}

@@ -1,0 +1,1181 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_kaldi_executable"
+		],
+		"files" : 
+		[
+			"cmake/Utils.cmake",
+			"src/featbin/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 15
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 19
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 23
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 29
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 31
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 33
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 37
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 39
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 41
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 43
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 45
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 47
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 49
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 51
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 53
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 55
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 57
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 59
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 61
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 63
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 65
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 67
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 69
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 71
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 73
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 75
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 77
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 79
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 81
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 83
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 85
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 87
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 89
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 91
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 93
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 95
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/extend-transform-dim"
+			],
+			"targetId" : "extend-transform-dim::@aae51183a13d0be64660",
+			"targetIndex" : 166,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/wav-to-duration"
+			],
+			"targetId" : "wav-to-duration::@aae51183a13d0be64660",
+			"targetIndex" : 745,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/append-vector-to-feats"
+			],
+			"targetId" : "append-vector-to-feats::@aae51183a13d0be64660",
+			"targetIndex" : 52,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/wav-copy"
+			],
+			"targetId" : "wav-copy::@aae51183a13d0be64660",
+			"targetIndex" : 743,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/process-pitch-feats"
+			],
+			"targetId" : "process-pitch-feats::@aae51183a13d0be64660",
+			"targetIndex" : 686,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/compute-plp-feats"
+			],
+			"targetId" : "compute-plp-feats::@aae51183a13d0be64660",
+			"targetIndex" : 108,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/feat-to-dim"
+			],
+			"targetId" : "feat-to-dim::@aae51183a13d0be64660",
+			"targetIndex" : 178,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/paste-vectors"
+			],
+			"targetId" : "paste-vectors::@aae51183a13d0be64660",
+			"targetIndex" : 664,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/append-post-to-feats"
+			],
+			"targetId" : "append-post-to-feats::@aae51183a13d0be64660",
+			"targetIndex" : 51,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/subset-feats"
+			],
+			"targetId" : "subset-feats::@aae51183a13d0be64660",
+			"targetIndex" : 724,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/compare-feats"
+			],
+			"targetId" : "compare-feats::@aae51183a13d0be64660",
+			"targetIndex" : 90,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/compute-kaldi-pitch-feats"
+			],
+			"targetId" : "compute-kaldi-pitch-feats::@aae51183a13d0be64660",
+			"targetIndex" : 106,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/select-feats"
+			],
+			"targetId" : "select-feats::@aae51183a13d0be64660",
+			"targetIndex" : 712,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/extract-feature-segments"
+			],
+			"targetId" : "extract-feature-segments::@aae51183a13d0be64660",
+			"targetIndex" : 168,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/apply-cmvn"
+			],
+			"targetId" : "apply-cmvn::@aae51183a13d0be64660",
+			"targetIndex" : 53,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/extract-segments"
+			],
+			"targetId" : "extract-segments::@aae51183a13d0be64660",
+			"targetIndex" : 169,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/compute-spectrogram-feats"
+			],
+			"targetId" : "compute-spectrogram-feats::@aae51183a13d0be64660",
+			"targetIndex" : 109,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/compose-transforms"
+			],
+			"targetId" : "compose-transforms::@aae51183a13d0be64660",
+			"targetIndex" : 97,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/copy-feats"
+			],
+			"targetId" : "copy-feats::@aae51183a13d0be64660",
+			"targetIndex" : 123,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/fmpe-apply-transform"
+			],
+			"targetId" : "fmpe-apply-transform::@aae51183a13d0be64660",
+			"targetIndex" : 189,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/concat-feats"
+			],
+			"targetId" : "concat-feats::@aae51183a13d0be64660",
+			"targetIndex" : 114,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/fmpe-init"
+			],
+			"targetId" : "fmpe-init::@aae51183a13d0be64660",
+			"targetIndex" : 191,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/fmpe-est"
+			],
+			"targetId" : "fmpe-est::@aae51183a13d0be64660",
+			"targetIndex" : 190,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/copy-feats-to-htk"
+			],
+			"targetId" : "copy-feats-to-htk::@aae51183a13d0be64660",
+			"targetIndex" : 124,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 50,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/compute-mfcc-feats"
+			],
+			"targetId" : "compute-mfcc-feats::@aae51183a13d0be64660",
+			"targetIndex" : 107,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 52,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/compute-fbank-feats"
+			],
+			"targetId" : "compute-fbank-feats::@aae51183a13d0be64660",
+			"targetIndex" : 104,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 54,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/splice-feats"
+			],
+			"targetId" : "splice-feats::@aae51183a13d0be64660",
+			"targetIndex" : 721,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 56,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/apply-cmvn-sliding"
+			],
+			"targetId" : "apply-cmvn-sliding::@aae51183a13d0be64660",
+			"targetIndex" : 55,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 58,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/add-deltas-sdc"
+			],
+			"targetId" : "add-deltas-sdc::@aae51183a13d0be64660",
+			"targetIndex" : 31,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 60,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/shift-feats"
+			],
+			"targetId" : "shift-feats::@aae51183a13d0be64660",
+			"targetIndex" : 714,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 62,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/compute-cmvn-stats"
+			],
+			"targetId" : "compute-cmvn-stats::@aae51183a13d0be64660",
+			"targetIndex" : 101,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 64,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/get-full-lda-mat"
+			],
+			"targetId" : "get-full-lda-mat::@aae51183a13d0be64660",
+			"targetIndex" : 270,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 66,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/interpolate-pitch"
+			],
+			"targetId" : "interpolate-pitch::@aae51183a13d0be64660",
+			"targetIndex" : 350,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 68,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/fmpe-acc-stats"
+			],
+			"targetId" : "fmpe-acc-stats::@aae51183a13d0be64660",
+			"targetIndex" : 188,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 70,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/transform-feats"
+			],
+			"targetId" : "transform-feats::@aae51183a13d0be64660",
+			"targetIndex" : 736,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 72,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/process-kaldi-pitch-feats"
+			],
+			"targetId" : "process-kaldi-pitch-feats::@aae51183a13d0be64660",
+			"targetIndex" : 685,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 74,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/fmpe-sum-accs"
+			],
+			"targetId" : "fmpe-sum-accs::@aae51183a13d0be64660",
+			"targetIndex" : 192,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 76,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/feat-to-len"
+			],
+			"targetId" : "feat-to-len::@aae51183a13d0be64660",
+			"targetIndex" : 179,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 78,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/compute-cmvn-stats-two-channel"
+			],
+			"targetId" : "compute-cmvn-stats-two-channel::@aae51183a13d0be64660",
+			"targetIndex" : 102,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 80,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/paste-feats"
+			],
+			"targetId" : "paste-feats::@aae51183a13d0be64660",
+			"targetIndex" : 662,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 82,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/compute-and-process-kaldi-pitch-feats"
+			],
+			"targetId" : "compute-and-process-kaldi-pitch-feats::@aae51183a13d0be64660",
+			"targetIndex" : 99,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 84,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/modify-cmvn-stats"
+			],
+			"targetId" : "modify-cmvn-stats::@aae51183a13d0be64660",
+			"targetIndex" : 488,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 86,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/add-deltas"
+			],
+			"targetId" : "add-deltas::@aae51183a13d0be64660",
+			"targetIndex" : 30,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 88,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/subsample-feats"
+			],
+			"targetId" : "subsample-feats::@aae51183a13d0be64660",
+			"targetIndex" : 723,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 90,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/copy-feats-to-sphinx"
+			],
+			"targetId" : "copy-feats-to-sphinx::@aae51183a13d0be64660",
+			"targetIndex" : 125,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 92,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/wav-reverberate"
+			],
+			"targetId" : "wav-reverberate::@aae51183a13d0be64660",
+			"targetIndex" : 744,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 94,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/multiply-vectors"
+			],
+			"targetId" : "multiply-vectors::@aae51183a13d0be64660",
+			"targetIndex" : 493,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 96,
+			"component" : "kaldi",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"src/featbin/post-to-feats"
+			],
+			"targetId" : "post-to-feats::@aae51183a13d0be64660",
+			"targetIndex" : 675,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/featbin",
+		"source" : "src/featbin"
+	}
+}

@@ -1,0 +1,396 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/lat/libkaldi-lat.dylib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories",
+			"include",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"src/lat/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/third_party/openfst.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 133,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 206,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 4
+			},
+			{
+				"file" : 2,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 13,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "HAVE_CLAPACK=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "KALDI_NO_PORTAUDIO=1"
+				},
+				{
+					"define" : "kaldi_lat_EXPORTS"
+				}
+			],
+			"frameworks" : 
+			[
+				{
+					"path" : "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/Accelerate.framework"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 9,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/lat/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/hmm/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/tree/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/util/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/matrix/.."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/base/.."
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 1,
+			"id" : "fst::@ee16932f8d07e0cdc219"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kaldi-base::@da17c8cd1000ca7e4b79"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kaldi-matrix::@6b065bd649ab8144ccb5"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kaldi-util::@6bc12a100e338ba65b7b"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kaldi-tree::@9fdfae0d1fef350d8020"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kaldi-hmm::@086178c3ed9e97abaaa5"
+		}
+	],
+	"id" : "kaldi-lat::@435cef781b9d28745ff1",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/hmm -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/tree -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/util -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/matrix -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/src/base -Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-build/src/lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../hmm/libkaldi-hmm.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../tree/libkaldi-tree.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../util/libkaldi-util.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../matrix/libkaldi-matrix.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../base/libkaldi-base.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lcblas",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-llapack",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "../../_deps/openfst-build/src/lib/libfst.16.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "kaldi-lat",
+	"nameOnDisk" : "libkaldi-lat.dylib",
+	"paths" : 
+	{
+		"build" : "src/lat",
+		"source" : "src/lat"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/lat/compose-lattice-pruned.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/lat/confidence.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/lat/determinize-lattice-pruned.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/lat/kaldi-lattice.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/lat/lattice-functions-transition-model.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/lat/lattice-functions.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/lat/minimize-lattice.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/lat/phone-align-lattice.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/lat/push-lattice.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/lat/sausages.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/lat/word-align-lattice-lexicon.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/lat/word-align-lattice.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

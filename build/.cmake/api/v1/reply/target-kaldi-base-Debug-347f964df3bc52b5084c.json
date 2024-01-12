@@ -1,0 +1,258 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "src/base/libkaldi-base.dylib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_definitions",
+			"include_directories",
+			"include",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"src/base/CMakeLists.txt",
+			"CMakeLists.txt",
+			"cmake/third_party/openfst.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 133,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 206,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 3
+			},
+			{
+				"file" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 13,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.2 -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "HAVE_CLAPACK=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "KALDI_NO_PORTAUDIO=1"
+				},
+				{
+					"backtrace" : 0,
+					"define" : "KALDI_VERSION=\"5.5\""
+				},
+				{
+					"define" : "kaldi_base_EXPORTS"
+				}
+			],
+			"frameworks" : 
+			[
+				{
+					"path" : "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/Accelerate.framework"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-src/src/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src/base/.."
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 1,
+			"id" : "fst::@ee16932f8d07e0cdc219"
+		}
+	],
+	"id" : "kaldi-base::@da17c8cd1000ca7e4b79",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/Users/asmafaraj/Downloads/KaldiSpeechProcessing/installation/kaldi/src"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-build/src/lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Xlinker -framework -Xlinker Accelerate",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "../../_deps/openfst-build/src/lib/libfst.16.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "kaldi-base",
+	"nameOnDisk" : "libkaldi-base.dylib",
+	"paths" : 
+	{
+		"build" : "src/base",
+		"source" : "src/base"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/base/io-funcs.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/base/kaldi-error.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/base/kaldi-math.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/base/kaldi-utils.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/base/timer.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

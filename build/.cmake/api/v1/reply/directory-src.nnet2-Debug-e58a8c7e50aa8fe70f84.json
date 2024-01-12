@@ -1,0 +1,283 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_kaldi_test_executable"
+		],
+		"files" : 
+		[
+			"cmake/Utils.cmake",
+			"src/nnet2/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 86,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 88,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 89,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 9
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 11
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 91,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 92,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 95,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 101,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet2/am-nnet-test"
+			],
+			"targetId" : "am-nnet-test::@a87f42533a5e7131ca03",
+			"targetIndex" : 49,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet2/nnet2-component-test"
+			],
+			"targetId" : "nnet2-component-test::@a87f42533a5e7131ca03",
+			"targetIndex" : 560,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet2/nnet2-compute-test"
+			],
+			"targetId" : "nnet2-compute-test::@a87f42533a5e7131ca03",
+			"targetIndex" : 561,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet2/nnet2-example-functions-test"
+			],
+			"targetId" : "nnet2-example-functions-test::@a87f42533a5e7131ca03",
+			"targetIndex" : 562,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet2/nnet2-nnet-test"
+			],
+			"targetId" : "nnet2-nnet-test::@a87f42533a5e7131ca03",
+			"targetIndex" : 563,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet2/nnet2-precondition-online-test"
+			],
+			"targetId" : "nnet2-precondition-online-test::@a87f42533a5e7131ca03",
+			"targetIndex" : 564,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet2/nnet2-precondition-test"
+			],
+			"targetId" : "nnet2-precondition-test::@a87f42533a5e7131ca03",
+			"targetIndex" : 565,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "testbin",
+			"paths" : 
+			[
+				"src/nnet2/online-nnet2-decodable-test"
+			],
+			"targetId" : "online-nnet2-decodable-test::@a87f42533a5e7131ca03",
+			"targetIndex" : 647,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "kaldi",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/nnet2/libkaldi-nnet2.dylib"
+			],
+			"targetId" : "kaldi-nnet2::@a87f42533a5e7131ca03",
+			"targetIndex" : 391,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "kaldi",
+			"destination" : "include/kaldi/nnet2",
+			"paths" : 
+			[
+				"src/nnet2/am-nnet.h",
+				"src/nnet2/combine-nnet-a.h",
+				"src/nnet2/combine-nnet-fast.h",
+				"src/nnet2/combine-nnet.h",
+				"src/nnet2/decodable-am-nnet.h",
+				"src/nnet2/get-feature-transform.h",
+				"src/nnet2/mixup-nnet.h",
+				"src/nnet2/nnet-component.h",
+				"src/nnet2/nnet-compute-discriminative-parallel.h",
+				"src/nnet2/nnet-compute-discriminative.h",
+				"src/nnet2/nnet-compute-online.h",
+				"src/nnet2/nnet-compute.h",
+				"src/nnet2/nnet-example-functions.h",
+				"src/nnet2/nnet-example.h",
+				"src/nnet2/nnet-fix.h",
+				"src/nnet2/nnet-functions.h",
+				"src/nnet2/nnet-limit-rank.h",
+				"src/nnet2/nnet-nnet.h",
+				"src/nnet2/nnet-precondition-online.h",
+				"src/nnet2/nnet-precondition.h",
+				"src/nnet2/nnet-stats.h",
+				"src/nnet2/nnet-update-parallel.h",
+				"src/nnet2/nnet-update.h",
+				"src/nnet2/online-nnet2-decodable.h",
+				"src/nnet2/rescale-nnet.h",
+				"src/nnet2/shrink-nnet.h",
+				"src/nnet2/train-nnet-ensemble.h",
+				"src/nnet2/train-nnet.h",
+				"src/nnet2/widen-nnet.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/nnet2",
+		"source" : "src/nnet2"
+	}
+}

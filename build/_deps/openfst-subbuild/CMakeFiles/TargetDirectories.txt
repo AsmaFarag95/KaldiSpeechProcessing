@@ -1,0 +1,3 @@
+/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/CMakeFiles/openfst-populate.dir
+/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/CMakeFiles/edit_cache.dir
+/Users/asmafaraj/Downloads/KaldiSpeechProcessing/build/_deps/openfst-subbuild/CMakeFiles/rebuild_cache.dir
